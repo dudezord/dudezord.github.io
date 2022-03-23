@@ -1,0 +1,36 @@
+Welcome back, brave adventurer! McFunkypants here, and I'm honoured to invite you to join us on a new year of gamedev. 
+
+The 100% optional theme word for January is: RESPAWN. Unlike real life, here at #1GAM you have infinite credits. So take risks! You've got nothing to lose. Whether you're a first-timer or a seasoned pro, you can start your #1GAM quest anytime. Any month. On any platform, using any language. 
+
+Whether you made a dozen games last year or failed miserably, you've always got another chance. If you miss this month's deadline, keep going and post something next month. You're always welcome here. Keep trying.
+
+It is time to celebrate the incredible success that was 2013. Here at #1GAM what began as a personal challenge intended for a dozen friends blew up and became a thriving community of over 5000 game developers. 
+
+Why? Because I wasn't the only one who aspired to train harder, work faster, and learn as much about gamedev as I could. If you created a game project last year you have every right to celebrate alongside me. 
+
+Reaching the finish line is not easy. There are countless battles along the way - buggy algorithms, rendering glitches, and (most significant of all) keeping your motiviation high enough to break through "the wall" when the going gets tough is what separates the pros from the dreamers.
+
+You can do it; all it takes is personal discipline. You don't have to work hard - just often. Regularly. Over a long period of time. You don't have to be a genius. You just have to want it enough. You don't have to be the world's best coder or artist - your ideas are as good as anybody's.
+
+So what's stopping you from making twelve games this year? You can do it by joining a single game jam weekend once a month, so it isn't lack of time. You'll spend more time on the couch than you will working on your game. 
+
+The only thing stopping you from achieving gamedev success is the fact that it takes work. I have good news, though: you can make the work FUN. Turn gamedev into a game. Enjoy the process. Don't beat yourself up. There are intrinsic rewards to enjoy - the creative, exciting, inspiring process that is making a game. 
+
+Dive in, enjoy the ride, and remember how lucky you are. To be making games. Don't stress about the finish line: enjoy the marathon. Make the process fun.
+
+The games you make each month don't have to be perfect: these are workouts for your brain. Milestones for your career. Projects you can put in your portfolio, blog about, and get an amazing job because of. 
+
+If you're ready to go pro, I suggest adopting an iterative development methodology. Build your dream game in small chunks. One a month. Stepping stones along the way.
+
+Let's say you dream of making an epic RPG. Start with simple game engine prototype with a hero walking around a dungeon. Call that a game. Next month, add stats and inventory. Call that a sequel. On the third month, add an overworld map, revamp the combat, and start working on a plot. Each month along the way, try to complete an MVP (minimum viable product); a playable game, and give it a new name or number. By the end of the year you'll have a dozen prototypes and a killer RPG game engine.
+
+This year, anything that took work and resulted in a playable deliverable counts as a game submission. Sequels count. Ports to new platforms count. Milestones along the way to a big commercial release count. Tech demos count. Proof-of-concept prototypes count. Throwaway game jam games count. Little experiments or game-likes count. Games you submit a couple days late count. 
+
+Remember: there are NO RULES. Have fun. This is a personal challenge. One that is designed to make you a better, faster, stronger game developer. This is a fun quest, and I know you can do it, because over five thousand others have. Join us. 
+
+Kind regards,
+
+Christer Kaitila (aka McFunkypants)
+http://twitter.com/McFunkypants
+
+Music credits: New Beginnings by Stephen Lu - chibola.com - used with permission.

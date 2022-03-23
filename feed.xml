@@ -1,5 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-03-23T09:21:14+00:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">The plan is simple</title><link href="/blog/2022-03-02-the-plan-is-simple/" rel="alternate" type="text/html" title="The plan is simple" /><published>2022-03-02T00:00:00+00:00</published><updated>2022-03-23T01:47:29+00:00</updated><id>/blog/the-plan-is-simple</id><content type="html" xml:base="/blog/2022-03-02-the-plan-is-simple/"><![CDATA[<p>I already have some definitive ideas about what I want to do:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-03-23T22:22:48+00:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">The plan is simple</title><link href="/blog/2022-03-02-the-plan-is-simple/" rel="alternate" type="text/html" title="The plan is simple" /><published>2022-03-02T00:00:00+00:00</published><updated>2022-03-23T21:54:01+00:00</updated><id>/blog/the-plan-is-simple</id><content type="html" xml:base="/blog/2022-03-02-the-plan-is-simple/"><![CDATA[<p class="note">If you haven’t read my <a href="/blog/2022-03-01-a-new-beginning">initial blog post</a>, please check it first!</p>
+
+<ul id="markdown-toc">
+  <li><a href="#the-plan-is-simple" id="markdown-toc-the-plan-is-simple">The plan is simple</a></li>
+  <li><a href="#or-is-it" id="markdown-toc-or-is-it">Or is it?</a></li>
+  <li><a href="#ready-set" id="markdown-toc-ready-set">Ready? Set…</a></li>
+</ul>
+
+<h2 id="the-plan-is-simple">The plan is simple</h2>
+
+<p>I already have some definitive ideas about what I want to do:</p>
 <ul>
   <li>All the programming will be done on <a href="https://godotengine.org"><strong>Godot</strong></a>. I only have a little bit of experience using other engines, but since Godot is the <em>“new”</em> cool kid on the block, I decided on it.</li>
   <li>Project ideas will come sequentially from the amazing list of <a href="/projects/1GAM"><strong>#1GAM</strong></a>. I compiled the entire list of themes and keynotes since they aren’t available on the original site anymore.</li>
@@ -16,9 +26,13 @@
 <br />
 I’ll gladly take suggestions from the audience.</p>
 
-<h2 id="ready-set-go">Ready? Set… Go!</h2>
-<p>I guess we will have to see how it goes!</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><summary type="html"><![CDATA[I already have some definitive ideas about what I want to do: All the programming will be done on Godot. I only have a little bit of experience using other engines, but since Godot is the “new” cool kid on the block, I decided on it. Project ideas will come sequentially from the amazing list of #1GAM. I compiled the entire list of themes and keynotes since they aren’t available on the original site anymore. On each project, I will focus on improving one or more parts of game development where I don’t feel as confident. This can be anything from planning, writing, coding, art, modelling, music, marketing, setting up a Steam page, etc. I only ever did programming since 2008, so the opportunities to learn the remaining stuff are endless. Regarding deadlines, I intend to honor the #1GAM motto - one game a month. Document everything! This is a learning experiment, both for you and me. Even a website/blog is something I never did in the past. We are already making progress! 😄 … and most important, ENJOY the journey!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/solo-developers.png" /><media:content medium="image" url="/assets/img/blog/solo-developers.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A new beginning</title><link href="/blog/2022-03-01-a-new-beginning/" rel="alternate" type="text/html" title="A new beginning" /><published>2022-03-01T00:00:00+00:00</published><updated>2022-03-23T00:54:21+00:00</updated><id>/blog/a-new-beginning</id><content type="html" xml:base="/blog/2022-03-01-a-new-beginning/"><![CDATA[<p>Hello everyone!
-<br />
+<h2 id="ready-set">Ready? Set…</h2>
+<p>I guess we will have to see how it goes!</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><summary type="html"><![CDATA[If you haven’t read my initial blog post, please check it first!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/solo-developers.png" /><media:content medium="image" url="/assets/img/blog/solo-developers.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A new beginning</title><link href="/blog/2022-03-01-a-new-beginning/" rel="alternate" type="text/html" title="A new beginning" /><published>2022-03-01T00:00:00+00:00</published><updated>2022-03-23T21:54:13+00:00</updated><id>/blog/a-new-beginning</id><content type="html" xml:base="/blog/2022-03-01-a-new-beginning/"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#hello-everyone" id="markdown-toc-hello-everyone">Hello everyone!</a></li>
+</ul>
+
+<h2 id="hello-everyone">Hello everyone!</h2>
+<p><br />
 My real name is Pedro and I was born in the beautiful and sunny 🇵🇹 Portugal.
 <br />
 Since I was a young child that I had the desire to one day become a Game Developer.</p>
@@ -35,4 +49,4 @@ At 26 years of age, I finished my MSc in Graphics Programming and Game Developme
 <br />
 And because of that I also never had the motivation to work on them on my free time.</p>
 
-<p>The time has finally come… The journey starts now!</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><summary type="html"><![CDATA[Hello everyone! My real name is Pedro and I was born in the beautiful and sunny 🇵🇹 Portugal. Since I was a young child that I had the desire to one day become a Game Developer.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/press-start.jpg" /><media:content medium="image" url="/assets/img/blog/press-start.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>The time has finally come… The journey starts now!</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/press-start.jpg" /><media:content medium="image" url="/assets/img/blog/press-start.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

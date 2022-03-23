@@ -1,0 +1,5 @@
+This month's optional theme is: CGA GRAPHICS.
+
+To celebrate CGA JAM, your challenge is to make a game using the strictest graphical limitations you can. The perfect example is CGA grahipcs, from the MS-DOS era, which would be 320x200 pixels and only four colours: black, white, cyan and magenta, or the gameboy with only four shades of green. This is a hard challenge, so remember, cheating is allowed here. Bend the rules and have fun.
+
+Let limitations inspire your creativity! Good luck! 

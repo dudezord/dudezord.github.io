@@ -1,0 +1,15 @@
+Welcome to another amazing month of onegameamonth.com game jam goodness. We just got our 9 thousand 9 hundredth game submission. Thank you so much! I wonder who will submit game ten thousand?
+
+Remember, #1GAM is about regular gamedev practise to grow your skills. You're allowed, no, supposed to join other game jams and crosspost them here. #1GAM does not require exclusivity! This month I personally recommend the LOWREZJAM which encourages you to make a game using only 64x64 pixel resolution. It's also time for another Ludum Dare, so be sure to vote for your favourite themes.
+
+This month's optional 250xp theme word achievement is: AGE.
+
+How does time pass for your main characters? Will your game take place in the iron age? In an age of wonder? You could write a story about an older person looking back, or a baby growing up. Simulate a growing tree or the passage of eons on a terrestrial scale. model a society or a bloodline, or make each level a different time in your character's life.
+
+This month, have a little extra fun accounting for the AGE of whatever kind of entities live in the worlds you create. Make something in your game change over time. Grow, flourish, wither.
+
+In life, as in games, nothing ever stays the same. With each month, your game development skills are getting stronger. Keep it up.
+
+Have fun, and thanks so much for tuning in the keynote each month!
+
+- McFunkypants

@@ -1,0 +1,9 @@
+Welcome to month 51 of www.onegameamonth.com where we make small games every month as a personal challenge to levelup our gamedev skills.
+
+This month's optional 250xp theme word is: WRITE
+
+Make a game about prose, about ink, about poetry, about scrolls. Write a story, craft some dialogue, or type out an adventure. Put some books filled with lore into your game. Make a text adventure, some interactive fiction, or a visual novel.
+
+Pacing, plot beats, character development, backstory, climax, resolution; these are the things you should embrace this month as your enjoy being creative. Write something, and use it in a game.
+
+Good luck!

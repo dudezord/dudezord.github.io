@@ -1,0 +1,12 @@
+This is the 31st edition of #1GAM. Thanks for joining us on this fun gamedev adventure!
+
+Each month I add a new 250xp achievement to #1GAM. It's optional and just a way to spark your imagination.
+
+The theme word for this month is: SPLASH.
+
+Whether your game is about surfing huge waves by a sandy beach or oscillating beams of energy, whether your rockets do splash-damage to nearby entities or your particle systems splatter the walls with paint, give your game a splash of colour, of motion, of collision, of waves colliding or particles bouncing. Make droplets fly through the air, make them stick to surfaces or bounce before sliding together. Make a splash screen that's literally that. Add a bit of juice to your game anyway you think would be cool.
+
+Enjoy your summer holidays. Take a break. Do something easy. Make something in one short weekend and promise me you'll head outside the rest of the month. Join the Gameboy Jam or Ludum Dare or whatever and make a splash in the games industry this month. Good luck!
+
+- Christer Kaitila aka @McFunkypants
+- twitter.com/McFunkypants

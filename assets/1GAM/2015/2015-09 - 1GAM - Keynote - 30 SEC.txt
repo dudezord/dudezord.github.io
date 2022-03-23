@@ -1,0 +1,24 @@
+Thank you so much for tuning in to the 32nd www.onegameamonth.com keynote speech. Two to the power of five is a fun programmer milestone. I wonder if we'll make it to number 64?
+
+In honour of this milestone, this month's optional theme is:
+
+THIRTY SECONDS www.google.com/?q=What+can+you+do+in+30+seconds
+www.google.com/?q=Games+you+can+play+in+30+seconds
+
+Can you make a fast-paced game that lasts only 30s? One with frenetic rounds that start and end quick? A bombastic explosion of fun that ends almost as soon as it starts? Something that does one thing only, but does it well?
+
+A game that is half a minute long should probably focus on replayability: whether though randomness, strategic depth, surprises, or a multiplayer component.
+
+This month's theme fits perfectly with the Fantasic Arcade Gamemaking Frenzy game jam, entitled "DUPLICADE (itch.io/jam/duplicade), where the challenge is to make a 30 second-long local multiplayer game that will be playtested by the public on a real arcade cabinet!
+
+It is also ideal for your ultra hardcore hackers who are participating in the #JS13K competition, where your challenge is to make an HTML5 game (including all art) that fits in a mere 13 kilobytes. Check it out if minimalism and code golf appeal to you: js13kgames.com/
+
+As you probably know, #1GAM is designed as a way to strengthen your gamedev muscles by doing regular workouts, and small productions are the key to enjoying the experience. Make something so simple you can start and finish it in one weekend, or in a few evenings of an hour a night during the week.
+
+You never know - your simple 30 second long game could be the most fun thing you've ever made, and will likely be more polished, more juicy, and more exciting than your planned masterwork dream game with a huge open world and ten thousand sidequests.
+
+It will also be easier to make, and quicker to iterate upon. This means you might also have time for that extra layer of polish that you wouldn't have time or energy for had you created a bigger, more complex, longer game.
+
+So this month, race the clock! Make something you could fit into a commercial break. A game you could play while holding your breath. A quick way to match wits or reflexes with a friend, or something you could enjoy playing over and over to best your previous high score.
+
+Keep it simple, gamedev friends, and good luck! You have 30 seconds from the end of this message to come up with a game design! GO!

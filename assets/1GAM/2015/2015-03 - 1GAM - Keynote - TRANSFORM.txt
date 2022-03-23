@@ -1,0 +1,24 @@
+Welcome to month 27 of www.onegameamonth.com - the new 250XP theme achievement is
+
+TRANSFORM.
+
+This month, implement a transformation of some kind.
+
+In yourself, or your game. Shift position on your pet project. Pivot your plans. Adjust your orientation - look in different directions than you're used to. Change scale - go really small or super huge.
+
+Maybe a bouncing star will transform your game's character into a new form. A mushroom could magically alter your scale. The full moon or a magic ring could make you change shape. Maybe the actions of your game's protagonist will transform the world for the better - or worse.
+
+Now getting into the habit of regular gamedev also transforms yourself.
+
+Take the example of a pottery teacher who split the class into two groups. One half would be solely graded on quantity of work, the other half only on the quality of a single piece.
+
+At the end of the experiment, a strange thing happened. I quote:
+
+"The works of highest quality were all produced by the group being graded for quantity. It seems that while the "quantity" group was busy churning out piles of work - and learning from their mistakes - the "quality" group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay."
+-(from the book "Art & Fear")
+
+So transform the clay; your imagination, your code, your design; into something finished. Get fired up and sculpt something small and imperfect. Learn. Get stronger. Repeat.
+
+This will transform your gamedev skills, your confidence, and your experience. It will transform you from a talker - a dreamer - a planner - an innocent-looking sports car, into a powerful, heavily armed gamedev fighting machine ready to save the world from the onslaught of grandiose unfinished projects.
+
+Good luck this month and have fun.

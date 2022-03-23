@@ -1,0 +1,16 @@
+Welcome to one game a month, part 46.
+
+This month's 250xp theme is: TABULA RASA.
+
+Roughly translated, tabula rasa refers to a blank canvas. An empty text file. A fresh new empty unity or gamemaker project. Don't add, subtract. Leave some breathing room. Empty space. Start fresh, from nothing. Unencumbered by a bazillion plugins, assets, toolkits, engines, apis, or sdks.
+
+This month, try creating a simple game from scratch. Don't copy-n-paste in ten tons of handy code from previous projects, don't google for open source code snippets written by others.
+
+Just start from a blank file or an empty project and begin typing.
+
+Could you write the whole thing yourself? I bet you can.
+
+Good luck!
+
+Christer Kaitila aka McFunkypants
+http://twitter.com/McFunkypants

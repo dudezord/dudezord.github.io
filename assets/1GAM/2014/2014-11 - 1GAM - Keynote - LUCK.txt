@@ -1,0 +1,30 @@
+Welcome to the November 2014 edition of www.onegameamonth.com
+
+We just put a brand new feature into beta testing - the @OneGameAMonth twitter bot can now tweet dynamic images. To test this feature I just created 1700 gamedev wisdom quotes gleaned from your user profiles. The bot will tweet one every two hours for the rest of the year. Please share the ones you like!
+
+I'm working hard of version 3 of our server software. I hope to put a whole bunch of upgrades live on January 1st 2015 as we begin the third year of one game a month with nearly ten thousand users. What a huge, positive, encouraging community.
+
+Why did it grow so fast? I think it's because joining #1GAM is fun. But it's also valuable to your career. The whole point of #1GAM to to encourage you to join game jams or create small training projects. Build up your portfolio. Strengthen your gamedev muscles. Experiment. Learn. Practise. And just have fun.
+
+The fact that we're having fun while we do all this hard work blows me away.
+
+Think of how lucky you are to have the opportunity to do something so artistic and inspiring with your life. To be making games! To be concerned with FUN on a daily basis is probably a good definition for living the good life. We have to be some of the luckiest people in the world.
+
+With this in mind, the optional theme word for this month's #1GAM is: LUCK.
+
+The time has come to give deeper thought to just how amazing your life really is. There are so many people in the world that would love to trade places with us. You know it's true. Be grateful.
+
+Count your lucky stars. Revel in your health, your friends, your family, the things you love to do. None of it is going to last forever. So dive in. Feel grateful for your amazing luck.
+
+This month, make a game that revels in luck somehow. Share your good fortune. Be grateful for your amazing life. You're officially one of the lucky ones.
+
+I have a bonus side quest for you, too.
+
+Every November I try to do something for charity. Maybe it's just a way to give back and say thanks for another awesome year. Maybe it is to validate all the effort I put into making silly little games - to give them more impact. To help make the world a tiny bit better, somehow, tomorrow than it is today.
+
+So this month, I'd like to ask you to donate to the Child's Play Charity using the link at onegameamonth.com. 100% of the proceeds go to help children in hospitals around the world. Let's spread a little love from the gamedev community this month.
+
+Have a great month and good luck!
+
+Christer @McFunkypants Kaitila
+twitter.com/McFunkypants

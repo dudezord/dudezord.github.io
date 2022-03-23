@@ -1,0 +1,27 @@
+Making one game a month is a fun way to get game development experience.
+It's all about training your skills and getting better at what you aspire to be great at.
+Making games!
+
+This month's optional 250xp theme word is: levelup
+
+Design an experience point system for your next game.
+Devise a way to get better at the skills you want players to enjoy.
+Implement a skill tree, or a skill point system, or unlocks based on accumulated experience.
+
+Will you reward players with a juicy popup dialog where three stars explode into fireworks?
+Will you activate glowing achievement icons when a threshold is crossed?
+Will you let players spin wheels or roll dice for a bonus inventory item?
+Will you code a skill tree of new abilities you can unlock in a hierarchy?
+
+Whatever you choose to develop, just remember that in creating
+a levelup system for your next game,
+you will also be levelling up your real life
+game developer skill and earning real life experience points.
+
+Getting better at what you love to do feels great.
+Embrace that feeling and start coding. Good luck!
+
+- McFunkypants
+- onegameamonth.com
+
+Music by the awesome NoSoapRadio

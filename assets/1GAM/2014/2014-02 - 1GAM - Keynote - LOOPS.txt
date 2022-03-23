@@ -1,0 +1,13 @@
+Welcome to the February 2014 edition of www.onegameamonth.com - hope many of you had fun at this year's Global Game Jam last month!
+
+The 100% optional theme word for this month is LOOPS.
+
+In games, many things need to loop. An engine sound effect, an ambient music track, a tiled wall texture. Just for fun, start thinking about curves when designing your next game.
+
+If you have airplanes or spaceships, do barrel rolls and loop-the-loops. If you're working on a puzzle game, add rotating chains or combos. Instead of a secret base, put your next shooter inside a waterslide! Add some double-helix spiral rounded sweeping movement.
+
+This month, think curvy. Think spinning. Splines. Bezier. Catmull-rom.
+
+Think LOOPS. Have fun... and don't get dizzy!
+
+- McFunkypants

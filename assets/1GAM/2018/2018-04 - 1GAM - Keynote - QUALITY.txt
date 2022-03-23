@@ -1,0 +1,28 @@
+Welcome to the 64th fun month of #1GAM!
+
+The theme of the month is: QUALITY.
+
+Achieving quality is a greater challenge than attaining quantity. But quality is more important than quantity. It has more impact, more lasting effect, and is more memorable. Quality will get you the rewards you seek. Quality gets you jobs. One amazing thing beats a thousand crates full of meh.
+
+Quality is what you feel proudest of. So why do we all focus on quantity? Because it is the only measurable value here. Quantity is an easy to collect metric. Quality can't be given a numeric value, so A/B tests and sorting algorithms can't figure out how to minmax it.
+
+Quality is intangible, impossible to nail down, personal, subjective, and fickle. It's harder to maximize, and you'll never be completely certain whether you did or not. You can measure quantity, but you merely opine about quality. You make a value judgment, follow a gut feeling...
+
+But you know it when you see it.
+
+This month, seek quality, aim for quality, think about quality. What it means to you. How it feels. What is required to maximize quality in your own work? Slowing down? Being more careful from the onset; less frantic, less jam, more controlled, perhaps. Quality is often associated with brevity, conciseness, efficiency, cleanliness, or economy. If you think that too, then eliminate the superfluous; polish off the noise, reduce the spectacle, clean up the visuals, refine the controls, test and retest the gamefeel, iterate with more careful consideration - slowly - surely - using simplicity of design and efficiency of detail.
+
+Beware the rough copy WIP rapid prototype duct tape placeholder asset copypasta mockup garbage heap. Sure, you're trying to make a game in a month, but this time around, go really slow. Make something tiny, small, simple, and easy enough to make that you can spend all your time trying to do a quality job of your coding and art. Be meticulous. Don't make a mountain, make one tiny gem. Polish something minuscule till it gleams like a diamond.
+
+Iterate more - polish more - think more. Plan more carefully, more conservatively. Avoid tasks you've never done before: this time around hone your best skills. Use your experience. Use that one tool you know best. And act like a master at it; do it the best you can. Do what you do well as well as you possibly can. Don't mail it in, don't blast it out, don't whip something up.
+
+It's not just about working slower or tweaking the gameplay; but tiny things do matter. Nudging a few polies here and there, make your meshes snap more cleanly to the grid. Bevel those corners, or add trim around a large block of level geometry. Reduce load times, make the gravity a bit higher, add a normal map to your material, change the font a few times, spend more time on the lighting, the sounds, and reasons why a thing exists in your game. No filler.
+
+You want to look back on your work and smile, "now THIS is quality!" and you will feel so proud. Players will feel it too. They'll notice the quality. Because even if everyone has a different definition of it, we all know it when we see it. And it looks good.
+
+So this month, go for quality.
+
+Good luck! Have a great month!
+
+Christer Kaitila aka McFunkypants
+http://twitter.com/McFunkypants

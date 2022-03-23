@@ -1,0 +1,17 @@
+Welcome to onegameamonth.com month 42.
+
+I can't believe that after today I'll have I've written 42 of these little gamedev keynotes, nor did I expect that hundreds of people would listen to them. Thanks so much for your encouragement!
+
+Each month we choose a theme word on twitter and create an optional 250xp achievement you earn if your game is in any way inspired by the theme.
+
+This month's theme is: COUCH
+
+Start with a couch gag but embrace the sprit of living-room gameplay.
+
+Embrace gamepads, joysticks, remote controls and pillows. Make the font in your game enormous so it looks readable on a television. Make a local multiplayer chillaxing on the couch with friends game where folks can pick up a controller and play.
+
+Make your game about something comfortable, soft and slouchy, downtime and cuddles. About afternoon naps, reading, or spilling wine. About pocket change or pillowforts. About bouncing or sleeping, talking or snacking. Experiment with family fun and games, or solitary meditative times, putting your feet up.
+
+This month, make a game inspired by the word COUCH.
+
+Grab some refreshments, your oldest blanket, and your closest friend, and settle in for a night of gamedev. Have fun!

@@ -1,0 +1,30 @@
+This month's optional theme is: PERFECTION.
+
+The lure of perfection beckons like a siren’s song. It leads game developers to their deaths, promising the impossible. It stands an infinite distance away from wherever you are right now.
+
+In any game project, as you fall in love with what you’re working on, your mental image of the ultimate vision takes shape. The fantasy coalesces in your head. This fantasy of the ultimate rendition of that game you hope to make is a valuable mental asset. It provides the direction to move towards. It does not, however, provide the destination of the finish line. Sure, when someone points at the moon, don’t focus on the finger. That said, don’t aim to land on the moon with your first launch attempt.
+
+Just as it is wise to stow your “wishlist features” deep in the recesses of your beginner’s mind, you don’t want to define your goal as something that is impossible. Perfection, by definition, is impossible. It is the Aristotlean “image” that one can only hold in their imagination. In the real world, we can hold things to that ideal. We can celebrate those successes that crept ever closer to perfection. We cannot, however, hope to create something that could be described by everyone as the perfect game.
+
+Just as opinions subjectively vary, visions of your game’s ideal shape would never be the same between two people. With this technical impossibility in mind, the futility of striving for it becomes clear. Luckily, perfection still serves a purpose. It is a signpost. A landmark. # Much like when you’re lost in a forest, to continue in a straight line you can focus on something far away - a tall tree or radio tower.
+
+As you meander on the adventure on the ground, that landmark helps you to reorient yourself. It guides you straight forward. Navigating a vessel ages ago with a sextant or compass is the perfect example. You need not want to arrive at the north pole to benefit from knowing what direction is lies in. The same holds true to for your own personal visions of your idealized game design. Even though the pragmatic realities and technical or budgetary constraints will invariably force you to release something less than perfect, being able to picture the ideal version in your head serves as a wonderful landmark to head toward.
+
+In level design, the wisdom pioneered by Walt Disney called “weenies” serves to illustrate the purse of landmarks. Along the way on an adventure will be small rooms and boss battles. When the player is able to see a huge evil tower in the distance, their end-goal remains in sight. It’s existence serves to remind players of their ultimate objective.
+
+The architectural approach works in any language. It breaks up monotony and guides people on the path toward the finish line. It is a constant reminder of the “why” that pervades the day-to-day experience of developing a piece of software. Consider, then, the benefits of perfection. As a signpost. A compass. The moon. This is your ultimate vision. The wide-eyed ultimate version of your game that you’d surely create given infinite time and money.
+
+In real life, you cannot possibly get there. Now consider the benefits of rejecting perfection; you obtain access to the finish line.
+
+Finishing, itself a rare treasure, is a prerequisite for success as a gamedev. To finish - launch a game t the public - is the primary objective of all game developers. Sadly, it is one that is all too often never reached.
+
+Obstacles to finishing are numerous and obvious. Beyond those that are tangible, such as money, time, and even talent, lie obstacle that you can control. Those obstacles to finishing are constructs you’ve built yourself in your own mind.
+
+Since you know you’ll have to finish your game, and because perfection is by definition impossible to obtain in real life, you also know, with certainty, that you will have to accept imperfection in your work. Accepting imperfection is not easy. It hurts our pride, and lowers our feelings to self worth. Even if our next game is a huge hit, even if the press clamor to interview you and shower you with accolades, it is quite likely that the entire time you’ll be secretly obsessing over all the things in your game you wish you’d polished just that little bit more.
+
+Declaring your game “done” and ready for the public, therefore, requires swallowing your pride. Rejecting the goal of perfectionism, and humbly accepting your limitations. Perfection is both a valuable guiding star in the night and the nightmare in your sleep. It presents the direction you need to travel towards. It also leads to your doom.
+
+To succeed as a gamedev, you need to fail as a perfectionist.
+
+Christer Kaitila aka McFunkypants
+http://twitter.com/McFunkypants

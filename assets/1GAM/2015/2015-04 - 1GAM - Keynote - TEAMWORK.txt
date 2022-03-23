@@ -1,0 +1,17 @@
+Welcome to the 28th edition of onegameamonth.com
+
+This month's optional 250XP theme achievement is "TEAMWORK".
+
+Just for fun, try to team up for your next game jam. Surround yourself with people who have different skills than you, and work together to be greater than the sum of your parts! Recruit a friend and make a game that's twice as good in half the time.
+
+This is a great month to experiment with the extra depth that teamwork brings to game mechanics. Have you ever tried to design a sports game? How about an rpg or puzzle with more than one person under your control? How about a collaborative multiplayer game?
+In your game worlds, try adding an NPC or a second player for a collaborative mission. Recruit your adventure party at the local tavern, or hire mercenaries on the black market. Rescue future allies, or convert enemies to friends, and work together to save the world, escape from certain doom, or just hang out together.
+
+This month, we've added a new upcoming game jams calendar, thanks to the amazing people at www.indiegamejams.com. This month there will be an adventure game jam (jams.gamejolt.io/adventurejam) as well as the celebration of gamedev goodness that is Ludum Dare 32 (ludumdare.com/compo/). Be sure to join these and other game jams as a great way to motivate you to get into the habit of regular gamedev to strengthen your skills.
+
+Your quest this month is to encourage teamwork, either inside your game and in your real life. Can't find a team? Maybe you could find somebody to work with at www.indieteamup.com? You can also use the #1GAM member database to search and only list people who are looking for a team: www.onegameamonth.com/people?tags=is…e,wantsonateam
+
+Good luck and have fun this month! Go, team #gamedev, go!
+
+- Christer Kaitila
+- twitter.com/mcfunkypants

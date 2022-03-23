@@ -1,0 +1,49 @@
+Hi welcome to 1GAM, September edition.
+
+If you're just joining us, welcome!
+
+You can start anytime, and if you only make
+one or two games all year we'd still love
+to have your game posted on the site.
+
+Remember, #1GAM is for practise games. Tiny
+game jam experiments - workouts to strengnthen
+your gamedev muscles. We do not demand perfection.
+
+If you've been with me on the crazy journey
+since the beginning, I want to humbly thank you.
+
+September's 100% option THEME is:
+
+HEXAGONS
+
+Hexagons and games go hand-in-hand. They evoke
+thoughts of strategy, tactics, and mind-candy.
+
+Visually, they tesselate beautifully, like
+gemstones or a honeycomb. They aren't just for
+strategy games: imagine a platformer with the sprite grid
+made up of hexagons: you could have hills and ramps!
+
+In gaming, hexagons are often used in board games
+to give maps less of a grid feel. From wargames and
+world maps to puzzles and dungeons, the humble hexagon
+opens up an infinite variety of visual, mental, and physical
+gameplay experiences.
+
+Hexagons aren't just for video and tabletop games:
+I hope to see at least one game with a soccerball in it too.
+
+Whatever you do, remember that 1GAM is for FUN.
+
+There are no rules.
+Just do what you want.
+Make games.
+
+Make something small and simple.
+
+Well, now you have your SEPTEMBER QUEST:
+
+Try to put some hexagons in your game.
+
+Have fun and good luck!
