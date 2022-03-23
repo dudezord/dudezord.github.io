@@ -29,7 +29,7 @@ const SHELL_CACHE = "shell-9.1.6--v13--sw/";
 const ASSETS_CACHE = "assets--v13--sw/";
 
 // The cache for regular content, which will be invalidated every time you make a new build.
-const CONTENT_CACHE = "content--2022-03-22T00:33:15+00:00--sw/";
+const CONTENT_CACHE = "content--2022-03-23T09:21:14+00:00--sw/";
 
 // A URL search parameter you can add to external assets to cache them in the service worker.
 const SW_CACHE_SEARCH_PARAM = "sw-cache";
@@ -86,7 +86,9 @@ const STATIC_FILES = [
   /**/"/assets/img/blog/louis-hansel.jpg",
   /**/"/assets/img/blog/louis-hansel@0,25x.jpg",
   /**/"/assets/img/blog/louis-hansel@0,5x.jpg",
+  /**/"/assets/img/blog/press-start.jpg",
   /**/"/assets/img/blog/resume.png",
+  /**/"/assets/img/blog/solo-developers.png",
   /**/"/assets/img/blog/steve-harvey.jpg",
   /**/"/assets/img/blog/steve-harvey@0,125x.jpg",
   /**/"/assets/img/blog/steve-harvey@0,25x.jpg",
@@ -95,6 +97,9 @@ const STATIC_FILES = [
   /**/"/assets/img/blog/wade-lambert.jpg",
   /**/"/assets/img/docs/chrome-print.png",
   /**/"/assets/img/docs/google-fonts.png",
+  /**/"/assets/img/logo-dark.png",
+  /**/"/assets/img/logo-light.png",
+  /**/"/assets/img/projects/1gam.png",
   /**/"/assets/img/projects/hy-drawer.svg",
   /**/"/assets/img/projects/hy-img.svg",
   /**/"/assets/img/projects/hy-push-state.svg",
@@ -364,7 +369,7 @@ const STATIC_FILES = [
 const PRE_CACHED_ASSETS = [
   '/assets/icons/favicon.ico',
   /**/"/assets/img/sidebar-bg.jpg",/**/
-  /**/"/assets/img/logo.png",/**/
+  /**/"/assets/img/logo-light.png",/**/
   /**/"/assets/img/swipe.svg",
   /**/
 ];
@@ -373,9 +378,6 @@ const PRE_CACHED_ASSETS = [
 const CONTENT_FILES = [
   "/",
   "/offline.html",
-  /**/"/LICENSE/",
-  /**/"/NOTICE/",
-  /**/"/CHANGELOG/",
   /**/
 ];
 

@@ -18,9 +18,15 @@
     },{
       
       "title": "Blog",
-      "description": "The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll.\n",
+      
       "content": "\n",
       "url": "/blog/"
+    },{
+      
+      "title": "About me",
+      
+      "content": "\n",
+      "url": "/about/"
     },{
       
       "title": "Install",
@@ -29,22 +35,10 @@
       "url": "/docs/install/"
     },{
       
-      "title": "Posts",
-      "description": "This is the list layout for showing blog posts, which shows just the title and groups them by year of publication. Check out the blog layout for comparison.\n",
-      "content": "\n",
-      "url": "/posts/"
-    },{
-      
       "title": "Projects",
-      "description": "How people are using Hydejack in the real world.  This page is built using the projects layout* that you can use yourself to build a portfolio.\n",
+      
       "content": "\n",
       "url": "/projects/"
-    },{
-      
-      "title": "Résumé*",
-      "description": "This is the description of your resume page, as it will be seen by search engines. You’ll probably want to modify it in resume.md, and maybe set hide_description to true in the front matter.\n",
-      "content": "\n",
-      "url": "/resume/"
     },{
       
       "title": "Upgrade",
@@ -60,18 +54,7 @@
     }
   ], 
   "documents": [
-    {
-      "image": "/assets/img/blog/jj-ying.jpg",
-      "title": "What’s New in Hydejack 9.1?",
-      "date": "2021-02-13 00:00:00 +0000",
-      "description": "Version 9.1 provides minor design changes, new features, and closes multiple issues.\n",
-      "content": "What’s New in Hydejack 9.1?\n\n\n  Stripe-ified Design\n  Inverted Sidebars\n  Code Block Headers\n  Resume Download Buttons\n  SERP Breadcrumbs\n  Last Modified At\n  Clap Button Preview\n  Credits\n\n\nStripe-ified Design\nMost elements now have rounded borders, making the design look more modern (dare I say “Stripe-ified”) than ever before.\n\nThe goal of Hydejack was always to provide a theme that looks “designed” combined the amenities of a typical Jekyll theme for coders.\nThis is an important step in maintaining this goal.\n\nAt the same time, I’m introducing nerdy elements like breadcrumbs, that are almost ornamental in nature.\nYou wouldn’t find these on other Stripe-like designs, but I think they are appealing to developer types like myself. \nLike most additions to Hydejack, they can be disabled via configuration.\n\nInverted Sidebars\nThe colors on the sidebar can now be inverted to allow brighter sidebar images. This can be enabled per-page in the fort matter:\n\ninvert_sidebar: true\n\n\nCode Block Headers\nCode blocks can now have headers:\n\n// file: 'hello-world.js'\nconsole.log('Hello World!');\n\n\nHeaders are added by making the first line a comment of the form (file|title): ['\"].*['\"], e.g.:\n\n~~~js\n// file: 'hello-world.js'\nconsole.log('Hello World!');\n~~~\n\n\nCode blocks with and without headers now also come with a copy button. \nIn the case of header-less code blocks, the button only shows on hover to prevent potential overlap.\n\nResume Download Buttons\nResumes can now have download buttons:\n\n\n\nResumes can now have download buttons.\n\nThe documentation has been updated with a chapter on how to configure the buttons.\n\nSERP Breadcrumbs\nAdded breadcrumbs above page title:\n\n\n\nBread crumbs are now shown above each page title.\n\nNote that this requires a directory-like URL structure on your entire site, \notherwise the intermediate links will point to nonexisting sites.\n\nOn a side note, Hydejack now has built-in tooltips for abbreviations like SERP (activated via tap/click).\nSee Example Content on how to add them to your content.\n\nLast Modified At\nBlog posts can now have a “last modified at” date in the sub title row.\n\n\n\nNote that this depends on the last_modified_at property of the page, which must be either set manually in the frontmatter (not recommended), or via a plugin like jekyll-last-modified-at. Note that the later is not available when building on GitHub Pages and can increase build times.\n\nClap Button Preview\nI’ve been trying something new with getclaps.app, a feedback and analytics tool for personal sites like those powered by Hydejack.\n\n\n\nIt is a separate product from Hydejack and not enabled by default. Because it depends on a backend component, it requires a monthly fee. \nIf enabled, it is placed below posts and pages where the dingbat character (❖) used to be.\n\nI can’t claim that this product is fully baked (feedback welcome), but I’ve been using it on my personal site and here for the last couple of months with no issues.\nFor more, see the dedicated website.\n\n\n\nThere are many more changes and bugfixes in 9.1. See the CHANGELOG for details.\n\nCredits\n\nPhoto by JJ Ying on Unsplash\n\n",
-      "categories": ["example"],
-      "tags": [],
-      
-      "collection": "posts",
-      "url": "/blog/example/2021-02-13-whats-new-in-hydejack-9-1/"
-    }
+    
   ]
 }
 
