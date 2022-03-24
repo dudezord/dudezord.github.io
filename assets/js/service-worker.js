@@ -29,7 +29,7 @@ const SHELL_CACHE = "shell-9.1.6--v13--sw/";
 const ASSETS_CACHE = "assets--v13--sw/";
 
 // The cache for regular content, which will be invalidated every time you make a new build.
-const CONTENT_CACHE = "content--2022-03-23T22:22:48+00:00--sw/";
+const CONTENT_CACHE = "content--2022-03-24T00:38:23+00:00--sw/";
 
 // A URL search parameter you can add to external assets to cache them in the service worker.
 const SW_CACHE_SEARCH_PARAM = "sw-cache";
@@ -68,7 +68,6 @@ const STATIC_FILES = [
   /**/"/assets/1GAM/2013/2013-11%20-%201GAM%20-%20Keynote%20-%20CHANGE.txt",
   /**/"/assets/1GAM/2013/2013-12%20-%201GAM%20-%20Keynote%20-%20FROZEN%20SECRET%20KITTEN.ogg",
   /**/"/assets/1GAM/2013/2013-12%20-%201GAM%20-%20Keynote%20-%20FROZEN%20SECRET%20KITTEN.txt",
-  /**/"/assets/1GAM/2013/desktop.ini",
   /**/"/assets/1GAM/2014/2014-01%20-%201GAM%20-%20Keynote%20-%20RESPAWN.ogg",
   /**/"/assets/1GAM/2014/2014-01%20-%201GAM%20-%20Keynote%20-%20RESPAWN.txt",
   /**/"/assets/1GAM/2014/2014-02%20-%201GAM%20-%20Keynote%20-%20LOOPS.ogg",
@@ -165,7 +164,6 @@ const STATIC_FILES = [
   /**/"/assets/1GAM/2018/2018-10%20-%201GAM%20-%20Keynote%20-%20FORGIVE.txt",
   /**/"/assets/1GAM/2018/2018-11%20-%201GAM%20-%20Keynote%20-%20THANKS.txt",
   /**/"/assets/1GAM/2018/2018-12%20-%201GAM%20-%20Keynote%20-%20GOODBYE.txt",
-  /**/"/assets/1GAM/desktop.ini",
   /**/"/assets/img/blog/9.1.0-1.png",
   /**/"/assets/img/blog/9.1.0-2.png",
   /**/"/assets/img/blog/9.1.0-3.png",
