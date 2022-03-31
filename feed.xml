@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-03-31T00:31:48+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
-</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my first game - Portcullis (Part 1)</title><link href="/blog/2022-04-01-making-my-first-game-portcullis-part-1/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 1)" /><published>2022-04-01T00:00:00+01:00</published><updated>2022-03-31T00:06:24+01:00</updated><id>/blog/making-my-first-game-portcullis-part-1</id><content type="html" xml:base="/blog/2022-04-01-making-my-first-game-portcullis-part-1/"><![CDATA[<ul id="markdown-toc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-03-31T01:00:17+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
+</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my first game - Portcullis (Part 1)</title><link href="/blog/2022-04-01-making-my-first-game-portcullis-part-1/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 1)" /><published>2022-04-01T00:00:00+01:00</published><updated>2022-03-31T00:46:06+01:00</updated><id>/blog/making-my-first-game-portcullis-part-1</id><content type="html" xml:base="/blog/2022-04-01-making-my-first-game-portcullis-part-1/"><![CDATA[<ul id="markdown-toc">
   <li><a href="#greetings-fellow-adventurer" id="markdown-toc-greetings-fellow-adventurer">Greetings, fellow adventurer!</a></li>
   <li><a href="#theme---portcullis" id="markdown-toc-theme---portcullis">Theme - “Portcullis”</a>    <ul>
       <li><a href="#definition" id="markdown-toc-definition">Definition</a></li>
@@ -12,7 +12,7 @@
 <h2 id="greetings-fellow-adventurer">Greetings, fellow adventurer!</h2>
 
 <p>The time has come for my first challenge.
-As you <a href="/blog/2022-03-02-the-plan-is-simple/" class="mark">already know</a>, I will be doing one game a month as a way to learn everything I can about game development.</p>
+As you <a href="/blog/2022-03-02-the-plan-is-simple/" class="external">already know</a>, I will be doing one game a month as a way to learn everything I can about game development.</p>
 
 <p>Starting from now (April 2022), every month I will make a game from start-to-finish based on one of the original themes of <a href="/projects/1GAM">#1GAM</a>.</p>
 
