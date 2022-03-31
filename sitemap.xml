@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/blog/2022-03-01-a-new-beginning/</loc>
+<lastmod>2022-03-31T01:08:19+01:00</lastmod>
+</url>
+<url>
+<loc>/blog/2022-03-02-the-plan-is-simple/</loc>
+<lastmod>2022-03-31T01:08:18+01:00</lastmod>
+</url>
+<url>
+<loc>/blog/2022-04-01-making-my-first-game-portcullis-part-1/</loc>
+<lastmod>2022-03-31T01:08:17+01:00</lastmod>
+</url>
+<url>
+<loc>/projects/1GAM/</loc>
+<lastmod>2022-03-31T01:08:18+01:00</lastmod>
+</url>
+<url>
 <loc>/docs/config/</loc>
 <lastmod>2022-02-07T05:25:03+00:00</lastmod>
 </url>
@@ -11,6 +27,10 @@
 <url>
 <loc>/about/</loc>
 <lastmod>2022-03-22T20:21:41+00:00</lastmod>
+</url>
+<url>
+<loc>/</loc>
+<lastmod>2022-03-31T01:08:19+01:00</lastmod>
 </url>
 <url>
 <loc>/docs/install/</loc>
