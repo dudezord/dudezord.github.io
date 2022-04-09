@@ -1,5 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-03-31T01:09:59+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
-</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my first game - Portcullis (Part 1)</title><link href="/blog/2022-04-01-making-my-first-game-portcullis-part-1/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 1)" /><published>2022-04-01T00:00:00+01:00</published><updated>2022-03-31T01:08:17+01:00</updated><id>/blog/making-my-first-game-portcullis-part-1</id><content type="html" xml:base="/blog/2022-04-01-making-my-first-game-portcullis-part-1/"><![CDATA[<ul id="markdown-toc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-04-09T14:42:35+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
+</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my first game - Portcullis (Part 2)</title><link href="/blog/2022-04-09-making-my-first-game-portcullis-part-2/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 2)" /><published>2022-04-09T00:00:00+01:00</published><updated>2022-04-09T14:30:34+01:00</updated><id>/blog/making-my-first-game-portcullis-part-2</id><content type="html" xml:base="/blog/2022-04-09-making-my-first-game-portcullis-part-2/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-04-01-making-my-first-game-portcullis-part-1">Part 1</a>.</p>
+
+<ul id="markdown-toc">
+  <li><a href="#hello-again" id="markdown-toc-hello-again">Hello, again!</a></li>
+  <li><a href="#tasks" id="markdown-toc-tasks">Tasks</a>    <ul>
+      <li><a href="#gate-placeholder" id="markdown-toc-gate-placeholder">Gate placeholder</a></li>
+      <li><a href="#mobs-placeholder" id="markdown-toc-mobs-placeholder">Mobs placeholder</a></li>
+      <li><a href="#simple-game-loop" id="markdown-toc-simple-game-loop">Simple game loop</a></li>
+    </ul>
+  </li>
+  <li><a href="#until-next-week" id="markdown-toc-until-next-week">Until next week…</a>    <ul>
+      <li><a href="#winning--losing-conditions" id="markdown-toc-winning--losing-conditions">Winning / Losing conditions</a></li>
+      <li><a href="#game-art" id="markdown-toc-game-art">Game art</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="hello-again">Hello, again!</h2>
+
+<p>A week has already passed, so it is time for an official™ update on the development of <strong>Gatekeeper</strong>.</p>
+
+<p>I have been able to work a couple of hours each day on the project and I’m loving it! It has been pretty cool so far to learn Godot as it is pretty beginner-friendly on how to make things.</p>
+
+<p>The first few days I dedicated to go through <a href="https://docs.godotengine.org/en/stable/getting_started/introduction/index.html">some tutorials</a> to learn the basics of Godot.</p>
+
+<p>After I felt I knew the bare minimum to start programming this game, I jumped directly into it.
+The first task was to create a placeholder for the most important element of the game… the <strong>Gate</strong>.</p>
+
+<h2 id="tasks">Tasks</h2>
+
+<h3 id="gate-placeholder">Gate placeholder</h3>
+<p>I started by mocking up an isometric shape, since I thought it would give more depth and character to the gate than a simple 2D side-view.
+I immediatelly put my hands on creating a raise and lower animations that felt somewhat convincing. This was pretty easy to do, thanks to the usage of Ease functions on Godot animations.</p>
+
+<video style="vertical-align: middle;" controls="" loop="" src="/assets/img/blog/posts/01-portcullis/part-2-Gate_Animation.webm"></video>
+
+<p><br />
+Afterwards, I decided that the gate would have two collision areas:</p>
+<ul>
+  <li>a side one, which would behave like a wall to stop mobs;</li>
+  <li>a bottom one, which would behave like the area with spikes that will kill the enemies.</li>
+</ul>
+
+<p>In the end, I ended up with the best gate I have ever made in my life. Behold!</p>
+
+<p><img src="/assets/img/blog/posts/01-portcullis/part-2-gate-placeholder.jpg" /></p>
+
+<h3 id="mobs-placeholder">Mobs placeholder</h3>
+
+<p>Having extensive experience developing Gate placeholders made creating the mobs placeholder very easy.
+Mobs also have two collision areas:</p>
+<ul>
+  <li>one for stopping when they reach the closed gate;</li>
+  <li>another for detecting when they are being smashed by the gate.</li>
+</ul>
+
+<p><img src="/assets/img/blog/posts/01-portcullis/part-2-mob-placeholder.jpg" /></p>
+
+<h3 id="simple-game-loop">Simple game loop</h3>
+
+<p>Now it was finally time to start gluing things together.</p>
+
+<p>I created a basic Spawner script to randomly spawn villagers or enemies.
+These would walk automatically towards the Gate, and would either collide with it or pass through.</p>
+
+<p>Collisions use four separate Physics Layers to detect which part of the mob collided with which part of the gate.
+Each collision with the gate triggers a separate area_entered() signal, depending if it collided with the side or the bottom part.
+A new signal is then emited to the colliding mob, telling them to “stop” or “die”.
+If the gate raises then they are no longer colliding, so a “move” signal is emited from the Gate to the mob.</p>
+
+<p>A corresponding Despawner script was also added to make sure the mobs can graciously be terminated once they leave the screen.</p>
+
+<p>You can see it all in action below.</p>
+
+<video controls="" loop="" src="/assets/img/blog/posts/01-portcullis/part-2-Game_Loop.webm"></video>
+
+<p class="note" title="A poem">Villagers are green,<br />
+EnemySoliders are red,<br />
+don’t walk near a falling gate,<br />
+or you will end up dead!</p>
+
+<h2 id="until-next-week">Until next week…</h2>
+<p>These are the tasks that I will attempt to work on for the following week:</p>
+
+<h3 id="winning--losing-conditions">Winning / Losing conditions</h3>
+<p>Having already a basic game loop, my next task will be implementing the core losing/winning conditions for the game. My current concept is to award points whenever the player kills an enemy or lets a villager through, and deduct points otherwise.</p>
+
+<p>I also though about relating the spawning/movement rate of the mobs and movement speed of the gate with the overall success rate of the player. The better the player, the faster the game gets, the more points are available to earn.</p>
+
+<p>After a set amount of time, the game ends, and the player receives its final score.</p>
+
+<h3 id="game-art">Game art</h3>
+<p>Now, this is where my vulnerabilities start. Let me begin by assuring you that I was never good at drawing. I don’t even consider myself mediocre. I consciously avoided any kind of arts and crafts project since I was a kid.</p>
+
+<p>I already got some motivation by watching a <a href="https://www.youtube.com/watch?v=rXuR78-IJ9Y">great video</a> of another fellow game developer. Make sure to <a href="https://www.twitch.tv/jotson">follow</a> <a href="https://twitter.com/yafd">him</a>, because he works on really cool stuff.</p>
+
+<div class="sixteen-nine">
+<iframe style="width:100%;height:100%;" width="560" height="315" src="https://www.youtube.com/embed/rXuR78-IJ9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<p><br />
+<br />
+With that in mind, I’ll give it my absolute best.<br />
+I’ll see you again in about a week, with another development update.</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><summary type="html"><![CDATA[If you haven’t yet, please read Part 1.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/posts/01-portcullis/part-2.jpg" /><media:content medium="image" url="/assets/img/blog/posts/01-portcullis/part-2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making my first game - Portcullis (Part 1)</title><link href="/blog/2022-04-01-making-my-first-game-portcullis-part-1/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 1)" /><published>2022-04-01T00:00:00+01:00</published><updated>2022-03-31T01:08:17+01:00</updated><id>/blog/making-my-first-game-portcullis-part-1</id><content type="html" xml:base="/blog/2022-04-01-making-my-first-game-portcullis-part-1/"><![CDATA[<ul id="markdown-toc">
   <li><a href="#greetings-fellow-adventurer" id="markdown-toc-greetings-fellow-adventurer">Greetings, fellow adventurer!</a></li>
   <li><a href="#theme---portcullis" id="markdown-toc-theme---portcullis">Theme - “Portcullis”</a>    <ul>
       <li><a href="#definition" id="markdown-toc-definition">Definition</a></li>
