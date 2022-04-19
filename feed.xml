@@ -1,5 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-04-09T14:42:35+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
-</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my first game - Portcullis (Part 2)</title><link href="/blog/2022-04-09-making-my-first-game-portcullis-part-2/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 2)" /><published>2022-04-09T00:00:00+01:00</published><updated>2022-04-09T14:30:34+01:00</updated><id>/blog/making-my-first-game-portcullis-part-2</id><content type="html" xml:base="/blog/2022-04-09-making-my-first-game-portcullis-part-2/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-04-01-making-my-first-game-portcullis-part-1">Part 1</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-04-19T02:05:54+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
+</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my first game - Portcullis (Part 3)</title><link href="/blog/2022-04-19-making-my-first-game-portcullis-part-3/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 3)" /><published>2022-04-19T00:00:00+01:00</published><updated>2022-04-19T02:04:41+01:00</updated><id>/blog/making-my-first-game-portcullis-part-3</id><content type="html" xml:base="/blog/2022-04-19-making-my-first-game-portcullis-part-3/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-04-01-making-my-first-game-portcullis-part-1">Part 1</a> and <a href="/blog/2022-04-09-making-my-first-game-portcullis-part-2">Part 2</a>.</p>
+
+<ul id="markdown-toc">
+  <li><a href="#hello-you-fine-folks" id="markdown-toc-hello-you-fine-folks">Hello, you fine folks!</a></li>
+  <li><a href="#tasks" id="markdown-toc-tasks">Tasks</a>    <ul>
+      <li><a href="#winning--losing-conditions" id="markdown-toc-winning--losing-conditions">Winning / Losing conditions</a></li>
+      <li><a href="#game-art" id="markdown-toc-game-art">Game art</a></li>
+    </ul>
+  </li>
+  <li><a href="#for-next-week" id="markdown-toc-for-next-week">For next week…</a>    <ul>
+      <li><a href="#difficulty-tweaking" id="markdown-toc-difficulty-tweaking">Difficulty Tweaking</a></li>
+      <li><a href="#game-art-1" id="markdown-toc-game-art-1">Game Art</a>        <ul>
+          <li><a href="#enemy--villager" id="markdown-toc-enemy--villager">Enemy / Villager</a></li>
+          <li><a href="#ui" id="markdown-toc-ui">UI</a></li>
+          <li><a href="#sound-effects--music" id="markdown-toc-sound-effects--music">Sound effects / Music</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="hello-you-fine-folks">Hello, you fine folks!</h2>
+
+<p>Welcome to the 2nd development update of <strong>Gatekeeper</strong>.</p>
+
+<p>If you recall, on the last post I wrote that this week I was going to implement the <strong>Winning/Losing</strong> conditions and work on the <strong>Game Art</strong>.</p>
+
+<p>I was partial successful on both of them, so here’s what I have and haven’t done:</p>
+
+<h2 id="tasks">Tasks</h2>
+
+<h3 id="winning--losing-conditions">Winning / Losing conditions</h3>
+<p>I used the concept of “points” that I presented last week and transformed it into a <strong>Morale</strong> meter.</p>
+
+<p>Whenever the player kills an enemy or helps a fleeing villager, its morale increases.
+If, otherwise, a villager is killed or an enemy enters the village, then the player’s morale decreases.</p>
+
+<p>This translates directly to the overall game speed. A higher morale makes the game faster more prone to error, but also more engaging.
+To add m a little bit more to the difficulty, I also added a Health meter to the gate. If the gate is closed but someone is being blocked by it, then the mob (villager or enemy) will start to damage the gate. This behaviour is to make sure that the player doesn’t try to stall the game, because a destroyed gate immediately loses the game.</p>
+
+<p>The player will have 90 seconds to finish the game with the highest morale possible:</p>
+
+<video controls="" loop="" src="/assets/img/blog/posts/01-portcullis/part-3-game-meters.mp4"></video>
+
+<h3 id="game-art">Game art</h3>
+<p>This was way more engaging than I previously antecipated. Although my lack of any type of arts and crafts skills, I think that I actually made some really good progress here.</p>
+
+<p>I’ve been using <a href="https://www.aseprite.org/">Aseprite</a> so far, after watching a couple of basic tutorials. I had the <a href="https://www.aseprite.org/quickref/">cheatsheet</a> opened on my 2nd monitor, alongside with several reference images that I used for inspiration.</p>
+
+<p>Currently, I’ve drawn the gate, the curtain walls that are on both sides and the grass where the mobs walk on.</p>
+
+<p>I’ve enjoyed a lot the fast iteration between drawing and having the content immediately show on Godot.</p>
+
+<p>Here’s a video with the current standing of the art:</p>
+<video controls="" loop="" src="/assets/img/blog/posts/01-portcullis/part-3-game-art.mp4"></video>
+
+<h2 id="for-next-week">For next week…</h2>
+
+<h3 id="difficulty-tweaking">Difficulty Tweaking</h3>
+<p>Although I already have a baseline difficulty scaling, I still didn’t fine-tune the different mechanic speeds as the morale increases. There are several things to consider: spawning rate, mob-type probability, movement speed and gate raising/lowering animations.</p>
+
+<p>The main objective of this tweaking pass is to maximize engagement. The maximum morale should be possible to achieve on the last 15-30 seconds of the game, but should be hard to maintain. The game must also play smoothly and try not to be too repetitive (across several playthroughs).</p>
+
+<h3 id="game-art-1">Game Art</h3>
+<h4 id="enemy--villager">Enemy / Villager</h4>
+
+<p>As can be seen of the previous video, I still didn’t draw the art for the enemies and villagers. Since these will require some sort of animation and will be a little bit more detailed than the rest of the art, I decided to postpone these to be the last art to be done.</p>
+
+<h4 id="ui">UI</h4>
+
+<p>I’m also missing some coherent UI to go along the pixel art. I plan to keep the “progress bar” meters for <strong>Morale</strong> and <strong>Gate Health</strong>, but I will need to play a little bit with their colors. I’ll also add a simple start an ending screens to tie everything together.</p>
+
+<h4 id="sound-effects--music">Sound effects / Music</h4>
+
+<p>I also plan to create some simple sound effects for when the gate closes or when a mob is killed. If I have time, I’ll try to come up with a simple music loop for the game.</p>
+
+<p>Only a few days remaining until the end of the month. See you soon, for the final update on this project!</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><summary type="html"><![CDATA[If you haven’t yet, please read Part 1 and Part 2.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/posts/01-portcullis/part-3.jpg" /><media:content medium="image" url="/assets/img/blog/posts/01-portcullis/part-3.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making my first game - Portcullis (Part 2)</title><link href="/blog/2022-04-09-making-my-first-game-portcullis-part-2/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 2)" /><published>2022-04-09T00:00:00+01:00</published><updated>2022-04-19T01:56:44+01:00</updated><id>/blog/making-my-first-game-portcullis-part-2</id><content type="html" xml:base="/blog/2022-04-09-making-my-first-game-portcullis-part-2/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-04-01-making-my-first-game-portcullis-part-1">Part 1</a>.</p>
 
 <ul id="markdown-toc">
   <li><a href="#hello-again" id="markdown-toc-hello-again">Hello, again!</a></li>
@@ -31,9 +107,10 @@ The first task was to create a placeholder for the most important element of the
 
 <h3 id="gate-placeholder">Gate placeholder</h3>
 <p>I started by mocking up an isometric shape, since I thought it would give more depth and character to the gate than a simple 2D side-view.
-I immediatelly put my hands on creating a raise and lower animations that felt somewhat convincing. This was pretty easy to do, thanks to the usage of Ease functions on Godot animations.</p>
+I immediatelly put my hands on creating a raise and lower animations that felt somewhat convincing. This was pretty easy to do, thanks to the usage of Ease functions on Godot animations.
+<br /></p>
 
-<video style="vertical-align: middle;" controls="" loop="" src="/assets/img/blog/posts/01-portcullis/part-2-Gate_Animation.webm"></video>
+<video style="vertical-align: middle;" controls="" loop="" src="/assets/img/blog/posts/01-portcullis/part-2-Gate_Animation.mp4"></video>
 
 <p><br />
 Afterwards, I decided that the gate would have two collision areas:</p>
@@ -73,7 +150,7 @@ If the gate raises then they are no longer colliding, so a “move” signal is 
 
 <p>You can see it all in action below.</p>
 
-<video controls="" loop="" src="/assets/img/blog/posts/01-portcullis/part-2-Game_Loop.webm"></video>
+<video controls="" loop="" src="/assets/img/blog/posts/01-portcullis/part-2-Game_Loop.mp4"></video>
 
 <p class="note" title="A poem">Villagers are green,<br />
 EnemySoliders are red,<br />
