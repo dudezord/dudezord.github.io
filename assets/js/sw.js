@@ -29,7 +29,7 @@ const SHELL_CACHE = "shell-9.1.6--v13--sw/";
 const ASSETS_CACHE = "assets--v13--sw/";
 
 // The cache for regular content, which will be invalidated every time you make a new build.
-const CONTENT_CACHE = "content--2022-04-19T02:05:54+01:00--sw/";
+const CONTENT_CACHE = "content--2022-04-28T23:23:02+01:00--sw/";
 
 // A URL search parameter you can add to external assets to cache them in the service worker.
 const SW_CACHE_SEARCH_PARAM = "sw-cache";
@@ -177,12 +177,19 @@ const STATIC_FILES = [
   /**/"/assets/img/blog/posts/01-portcullis/part-3-game-art.mp4",
   /**/"/assets/img/blog/posts/01-portcullis/part-3-game-meters.mp4",
   /**/"/assets/img/blog/posts/01-portcullis/part-3.jpg",
+  /**/"/assets/img/blog/posts/01-portcullis/part-4-chiptone.png",
+  /**/"/assets/img/blog/posts/01-portcullis/part-4-finale.jpg",
+  /**/"/assets/img/blog/posts/01-portcullis/part-4-gate-walls.mp4",
+  /**/"/assets/img/blog/posts/01-portcullis/part-4-mobs.png",
+  /**/"/assets/img/blog/posts/01-portcullis/part-4-start-screen.png",
   /**/"/assets/img/blog/posts/press-start.jpg",
   /**/"/assets/img/blog/posts/solo-developers.png",
   /**/"/assets/img/blog/steve-harvey.jpg",
   /**/"/assets/img/blog/wade-lambert.jpg",
   /**/"/assets/img/logo-dark.png",
   /**/"/assets/img/logo-light.png",
+  /**/"/assets/img/projects/01-gatekeeper/thumbnail-itch.png",
+  /**/"/assets/img/projects/01-gatekeeper/thumbnail.png",
   /**/"/assets/img/projects/1gam.png",
   /**/"/assets/img/projects/hy-drawer.svg",
   /**/"/assets/img/projects/hy-img.svg",

@@ -1,5 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-04-19T02:05:54+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
-</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my first game - Portcullis (Part 3)</title><link href="/blog/2022-04-19-making-my-first-game-portcullis-part-3/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 3)" /><published>2022-04-19T00:00:00+01:00</published><updated>2022-04-19T02:04:41+01:00</updated><id>/blog/making-my-first-game-portcullis-part-3</id><content type="html" xml:base="/blog/2022-04-19-making-my-first-game-portcullis-part-3/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-04-01-making-my-first-game-portcullis-part-1">Part 1</a> and <a href="/blog/2022-04-09-making-my-first-game-portcullis-part-2">Part 2</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-04-28T23:23:02+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
+</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my first game - Portcullis (Part 4 - Finale)</title><link href="/blog/2022-04-28-making-my-first-game-portcullis-part-4-finale/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 4 - Finale)" /><published>2022-04-28T00:00:00+01:00</published><updated>2022-04-28T23:22:46+01:00</updated><id>/blog/making-my-first-game-portcullis-part-4-finale</id><content type="html" xml:base="/blog/2022-04-28-making-my-first-game-portcullis-part-4-finale/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-04-01-making-my-first-game-portcullis-part-1">Part 1</a>, <a href="/blog/2022-04-09-making-my-first-game-portcullis-part-2">Part 2</a> and <a href="/blog/2022-04-19-making-my-first-game-portcullis-part-3">Part 3</a>.</p>
+
+<ul id="markdown-toc">
+  <li><a href="#we-did-it-we-finished-gatekeeper" id="markdown-toc-we-did-it-we-finished-gatekeeper">We did it, we finished Gatekeeper!</a></li>
+  <li><a href="#tasks" id="markdown-toc-tasks">Tasks</a>    <ul>
+      <li><a href="#difficulty-tweaking" id="markdown-toc-difficulty-tweaking">Difficulty Tweaking</a></li>
+      <li><a href="#game-art" id="markdown-toc-game-art">Game Art</a>        <ul>
+          <li><a href="#enemy--villager" id="markdown-toc-enemy--villager">Enemy / Villager</a></li>
+          <li><a href="#gate--walls" id="markdown-toc-gate--walls">Gate / Walls</a></li>
+          <li><a href="#ui" id="markdown-toc-ui">UI</a></li>
+          <li><a href="#sound-effects--music" id="markdown-toc-sound-effects--music">Sound effects / Music</a></li>
+        </ul>
+      </li>
+      <li><a href="#the-twist" id="markdown-toc-the-twist">The Twist</a></li>
+      <li><a href="#thats-all-folks" id="markdown-toc-thats-all-folks">That’s all Folks!</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="we-did-it-we-finished-gatekeeper">We did it, we finished Gatekeeper!</h2>
+
+<p>The first monthly project is now over.</p>
+
+<p>Let me start by saying that I’m very proud of the final result. Biased, I know… It’s not the most beautiful game in the World. It also isn’t the most fun… But it is <strong>mine</strong>!</p>
+
+<p>If you remember, last week we already had some basic <strong>Winning/Losing</strong> conditions and started working on <strong>Game Art</strong>.</p>
+
+<p>For this week’s update, this is what I worked on:</p>
+
+<h2 id="tasks">Tasks</h2>
+
+<h3 id="difficulty-tweaking">Difficulty Tweaking</h3>
+<p>I played a little bit with everything I mentioned on the last post. The objective was to balance the game in order to make it as engaging as possible.</p>
+
+<p>The gate animation speeds up the higher your <strong>Morale</strong>. I created 3 different raising animations so that the speed felt adequate to each one of these animations.</p>
+
+<p>The mobs’ walking speed is randomized increasingly as the <strong>Morale</strong> goes up. At the start of the game their walking speed is constant, but it becomes more diverse in the late game.</p>
+
+<p>As the <strong>Morale</strong> increases, the mobs’ spawning also gets faster and more unpredictable.</p>
+
+<p>With optimal gameplay, the player should be able to reach maximum <strong>Morale</strong> after 50 seconds of playing and then they keep the last 40 seconds of gameplay trying to decide which are the best clusters of mobs to attack and which are the bests to let through.</p>
+
+<p>If you take too much to decide, either the bad guys will enter or your Gate will be damage by the mob of people wanting to go inside. Be quick!</p>
+
+<h3 id="game-art">Game Art</h3>
+<h4 id="enemy--villager">Enemy / Villager</h4>
+
+<p>For the mobs, I wanted to make sure their own sprites had a walking animation. I ended up creating a very simple 4-frame animation. I actually spent very little time doing the mobs, since they are basically recolors of one-another.</p>
+
+<p>I made a first version of the mobs to test in-game and immediately got some feedback on how they seemed to be tilting backwards. Since walking is basically “continuously falling forward” I tweaked the art a little bit and it really made a difference.</p>
+
+<p><img src="/assets/img/blog/posts/01-portcullis/part-4-mobs.png" width="50%" /></p>
+
+<h4 id="gate--walls">Gate / Walls</h4>
+
+<p>This wasn’t original planned, but the same person that gave the feedback on the mobs’ sprites also told me that the remaining of the assets lacked some depth, since the Gate and the Walls looked like flat sheets of paper. I also thought it would be great if the spikes really penetrated the grass and made a hole. So, I added some depth to these textures and some dirt/holes where the spikes hit and now everything looks really cool!</p>
+
+<p>Upon seeing how cool these updated textures looked, I immediately noticed that now the gate lacked some “weight” to it. So I did what everyone would do as well: I added particle effects and screen shake everytime the Gate hits the ground, for that extra feel of impact.</p>
+
+<video controls="" src="/assets/img/blog/posts/01-portcullis/part-4-gate-walls.mp4" width="50%"></video>
+
+<h4 id="ui">UI</h4>
+
+<p>I ended up not doing anything on the <strong>Morale</strong> and <strong>Gate Health</strong> progress bars. Instead, I did the next best thing: I added damage sprites to the Gate, which gets more damaged as its Health decreases. This helps selling the idea that the bar above the Gate represents its health.</p>
+
+<p>I also added an extremely simple Start/Ending screen, with a single button to Play the game and a text-field to show if you were successful or not and your score.</p>
+
+<p><img src="/assets/img/blog/posts/01-portcullis/part-4-start-screen.png" width="50%" /></p>
+
+<p>I would have loved to have prettier screens, with a Credits scene for example, but I had a very convincing reason not to do that. I explain it later.</p>
+
+<h4 id="sound-effects--music">Sound effects / Music</h4>
+
+<p>Since this was also a completely new topic for me, I started with some research on what software were available and which ones I would like to work it.
+Upon some independent reading and some personal recommendations from GameDev people I follow, I ended up picking <a href="https://sfbgames.itch.io/chiptone">ChipTone</a> for the sound-effects and <a href="https://www.tracktion.com/products/waveform-free">Tracktion Waveform</a> for the music.</p>
+
+<p>I created some cool sounds effects for when the Gate closes, whenever a mob successfully passes through and when the Gate is destroyed (causing the player to immediately lose the game).</p>
+
+<p>Every time a mob walks across the Gate a sound is played. In case it’s an Enemy then the sound effect that is played goes down in pitch, representing a bad action by the player. Whenever a Villager crosses, the sounds that is played goes up in pitch, positively reinforcing this action. This happens at the same time that the <strong>Morale</strong> bar updates on the top of the screen, which makes it a more coherent experience for the player.</p>
+
+<p><img src="/assets/img/blog/posts/01-portcullis/part-4-chiptone.png" width="50%" /></p>
+
+<p>I really enjoyed creating the sound effects with <strong>ChipTone</strong>. At a first glance one might think that you just need to press the Generator/Randomize buttons a couple of times and you’re done, but I actually spent more time fine-tuning each sound independently by playing with all the knobs and trying to understand how each one of the impacted the final result. Great piece of software!</p>
+
+<p>I also planned on doing a background music loop. Nothing too fancy, just something that helped filling the void.
+I ended up not doing it, so consequently I also didn’t have a chance of playing with <strong>Tracktion Waveform</strong>.
+But as I said before, I have very convincing reason for it…</p>
+
+<h3 id="the-twist">The Twist</h3>
+
+<p>I caught Covid-19. I don’t know how. I don’t know why. It also doesn’t really matter.<br />
+I’ve been feeling ill for almost a week now and I haven’t touched the game since. I’m not feeling terribly bad, but overall I’m lacking the concentration and enjoyment needed for working on the game.</p>
+
+<p>It’s not an excuse. The game has, in my opinion, already surpassed any expectations that I had for a first project. But I still would have liked to work on it a little bit more. Instead, let’s take this extra motivation and use it for next month!</p>
+
+<h3 id="thats-all-folks">That’s all Folks!</h3>
+
+<p>One game, one month. One down, many more to go!</p>
+
+<p>At the end of each month I will create a dedicated “Project” page to symbolize the launch of the game!<br />
+The project page for this one lives here: <a href="/projects/gatekeeper">Gatekeeper</a>. Give it a look and, preferably, a play!</p>
+
+<p>I’ll see you next month!</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><summary type="html"><![CDATA[If you haven’t yet, please read Part 1, Part 2 and Part 3.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/posts/01-portcullis/part-4-finale.jpg" /><media:content medium="image" url="/assets/img/blog/posts/01-portcullis/part-4-finale.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making my first game - Portcullis (Part 3)</title><link href="/blog/2022-04-19-making-my-first-game-portcullis-part-3/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 3)" /><published>2022-04-19T00:00:00+01:00</published><updated>2022-04-19T02:04:41+01:00</updated><id>/blog/making-my-first-game-portcullis-part-3</id><content type="html" xml:base="/blog/2022-04-19-making-my-first-game-portcullis-part-3/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-04-01-making-my-first-game-portcullis-part-1">Part 1</a> and <a href="/blog/2022-04-09-making-my-first-game-portcullis-part-2">Part 2</a>.</p>
 
 <ul id="markdown-toc">
   <li><a href="#hello-you-fine-folks" id="markdown-toc-hello-you-fine-folks">Hello, you fine folks!</a></li>
