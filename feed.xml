@@ -1,5 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-04-28T23:23:02+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
-</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my first game - Portcullis (Part 4 - Finale)</title><link href="/blog/2022-04-28-making-my-first-game-portcullis-part-4-finale/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 4 - Finale)" /><published>2022-04-28T00:00:00+01:00</published><updated>2022-04-28T23:22:46+01:00</updated><id>/blog/making-my-first-game-portcullis-part-4-finale</id><content type="html" xml:base="/blog/2022-04-28-making-my-first-game-portcullis-part-4-finale/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-04-01-making-my-first-game-portcullis-part-1">Part 1</a>, <a href="/blog/2022-04-09-making-my-first-game-portcullis-part-2">Part 2</a> and <a href="/blog/2022-04-19-making-my-first-game-portcullis-part-3">Part 3</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-05-01T18:44:33+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
+</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my second game - Sound (Part 1)</title><link href="/blog/2022-05-01-making-my-second-game-sound-part-1/" rel="alternate" type="text/html" title="Making my second game - Sound (Part 1)" /><published>2022-05-01T00:00:00+01:00</published><updated>2022-05-01T18:39:31+01:00</updated><id>/blog/making-my-second-game-sound-part-1</id><content type="html" xml:base="/blog/2022-05-01-making-my-second-game-sound-part-1/"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#second-month-second-challenge" id="markdown-toc-second-month-second-challenge">Second month, second challenge!</a></li>
+  <li><a href="#theme---sound" id="markdown-toc-theme---sound">Theme - “Sound”</a>    <ul>
+      <li><a href="#definition" id="markdown-toc-definition">Definition</a></li>
+      <li><a href="#initial-ideas" id="markdown-toc-initial-ideas">Initial ideas</a></li>
+    </ul>
+  </li>
+  <li><a href="#game-concept---spectrum-attack" id="markdown-toc-game-concept---spectrum-attack">Game Concept - “Spectrum Attack”</a></li>
+</ul>
+
+<h2 id="second-month-second-challenge">Second month, second challenge!</h2>
+
+<p>Hello, everyone. Welcome to month #2!</p>
+
+<p>As you <a href="/blog/2022-03-02-the-plan-is-simple/" class="external">already know</a>, I’m doing one game a month as a way to learn everything I can about game development.</p>
+
+<p>Every month I will make a game from start-to-finish based on one of the original themes of <a href="/projects/1GAM">#1GAM</a>.<br />
+The final result from the previous month is here: <a href="/projects/Gatekeeper" class="external">Gatekeeper</a>.</p>
+
+<p>With that in mind, the theme for this month is… <em>**drum roll**</em></p>
+
+<h2 id="theme---sound">Theme - “Sound”</h2>
+
+<p>If you are interested, please listen to the <a href="/projects/1GAM/#2">original keynote</a> by <a href="https://twitter.com/McFunkypants">@McFunkypants</a>.<br /></p>
+
+<ul>
+  <li>
+    <h3 id="definition">Definition</h3>
+    <p><a href="https://en.wikipedia.org/wiki/Sound">Sound</a> is a vibration that propagates through air/water/etc. as if it were a wave. Once it reaches our ear, it is then amplified and channelled into the cochlea. The cochlea is filled with fluid that moves in response to this vibration. 25,000 nerve endings attached to the cochlea then detect this movement and transform it into electrical signals that are sent to the brain. The brain will then turn these signals into a sound that we can locate, recognize and understand.</p>
+  </li>
+  <li>
+    <h3 id="initial-ideas">Initial ideas</h3>
+    <p>I came with a number of ideas for this theme, but quickly discarded most of them as I wasn’t able to quickly figure out a way of turning each mechanic into a fun experience for the players. The ideas were:</p>
+
+    <ul>
+      <li>
+        <p><strong>“Goldberg’s Tune”</strong> - You need to create your own Goldberg Machine out of preset pieces. Your challenge is to replicate a series of famous tunes while creating amazing contraptions.</p>
+      </li>
+      <li>
+        <p><strong>“Blind Sky”</strong> - You are a blind person experiencing an airplane flight baptism. Something goes wrong and your pilot is no longer able to fly the airplane. Your mission is to turn back and land safely, depending exclusively on your hearing and the instructions that are given from the Airport Control Tower.</p>
+      </li>
+      <li>
+        <p><strong>“Spectrum Attack”</strong> - The player has to survive the duration of a specific song. Each beat/tone/speed change spawns a new enemy, which the player will be able to either dodge or destroy.</p>
+      </li>
+    </ul>
+
+    <p>In the end I decided on <strong>“Spectrum Attack”</strong> as it is the concept that allows for more prototyping and ability to come up with something fun.</p>
+  </li>
+</ul>
+
+<h2 id="game-concept---spectrum-attack">Game Concept - “Spectrum Attack”</h2>
+
+<p>In this game, the music is the most important aspect of gameplay. The characteristics of each song will determine when and where enemies spawn. Your objective is to survive the entire song, either by avoiding enemies or by destroying them.</p>
+
+<p>The gameplay can be something like “Asteroids” where asteroids spawn “randomly” around you and you have to destroy them.<br /></p>
+
+<p>Alternatively, it can be something like a top-down vertical bullet hell, where you have to actively avoid everything for the duration of the song.</p>
+
+<p>I’m not yet sure on what I want to work, so I’ll have to play a little bit with prototypes and see where it takes me!
+<br />
+<br />
+Time to go back to <a href="https://godotengine.org">Godot</a> and start exploring.<br />
+I’ll be back next week, with an update on the development of this project. See you soon!</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/posts/02-sound/part-1.jpg" /><media:content medium="image" url="/assets/img/blog/posts/02-sound/part-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making my first game - Portcullis (Part 4 - Finale)</title><link href="/blog/2022-04-28-making-my-first-game-portcullis-part-4-finale/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 4 - Finale)" /><published>2022-04-28T00:00:00+01:00</published><updated>2022-04-28T23:22:46+01:00</updated><id>/blog/making-my-first-game-portcullis-part-4-finale</id><content type="html" xml:base="/blog/2022-04-28-making-my-first-game-portcullis-part-4-finale/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-04-01-making-my-first-game-portcullis-part-1">Part 1</a>, <a href="/blog/2022-04-09-making-my-first-game-portcullis-part-2">Part 2</a> and <a href="/blog/2022-04-19-making-my-first-game-portcullis-part-3">Part 3</a>.</p>
 
 <ul id="markdown-toc">
   <li><a href="#we-did-it-we-finished-gatekeeper" id="markdown-toc-we-did-it-we-finished-gatekeeper">We did it, we finished Gatekeeper!</a></li>
