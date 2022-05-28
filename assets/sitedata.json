@@ -138,6 +138,17 @@
       "collection": "posts",
       "url": "/blog/2022-05-01-making-my-second-game-sound-part-1/"
     },{
+      "image": {"path":"/assets/img/blog/posts/02-sound/part-2-finale.jpg"},
+      "title": "Making my second game - Sound<br> (Part 2 - Finale)",
+      "date": "2022-05-28 00:00:00 +0100",
+      
+      "content": "If you haven’t yet, please read Part 1.\n\n\n  Spectrum Attack is done!    \n      The Twist (again)\n    \n  \n  The Game\n  Tasks    \n      Spectrum Analyzer\n      Falling Rain\n      Rolling Cat\n      UI\n      Art / Music\n      That’s it for May!\n    \n  \n\n\nSpectrum Attack is done!\n\nThe second monthly project is now over.\n\nThis was a rough month. So this will be the only update of the month for Spectrum Attack!\n\nThe Twist (again)\n\nIf you read the last devlog of April then you already know that I caught Covid-19. And it sucked… I thought it was going to be a walk in the park, because of vaccines and stuff. Oh boy, how wrong I was…\n\nI ended up having symptoms for a total of four weeks, which didn’t allow me to stay at the computer for more than a couple minutes of a time, since I would get very nauseous.\n\nSo basically, everything related to this game was done in the last couple of days.\n\nI thought about postponing this month’s project to June, but that meant to break my initial promise after only one month, so I pushed through it.\n\nOverall, I think it still payed off.\n\nThe Game\n\nI finished Part 1 being somewhat vague on what the game would be about.\nI stated that the game would feature its Music as the main gameplay element and I was able to keep that promise!\n\nSpectrum Attack! is a game about a cat that either loves or hates rain! Roll your way around while the music plays and either grab or avoid the rain drops.\n\n\n\nTasks\n\nSpectrum Analyzer\nI started by implement an analyzer that would give me a histrogram of the different sound frequencies that were being played. Fortunately, this was very easy since Godot provides a very easy-to-use API exactly for this.\n\nAfter having it working, I refactored it in order to give me the notes which were being played, no matter what octave it was. Basically, summing every 12nd interval in its own group.\n\nSince notes being played on top of the others create lots of frequency noise, I decided accumulate these samples and only query which notes were being played a handful times per second.\n\nFalling Rain\nQuerying the previous accumulated samples gives me numbers from 0 to 11 (A, A#, B, C, C#, D, D#, E, F, F#, G, G#).\n\nI divide the screen in 12 vertical strips and then spawn rain-drops in the corresponding slot for the notes that are being played at that exact time.\n\nRolling Cat\nNow, it’s just a matter of implementing a player entity for us to control!\n\nI decided on a cute cat that rolls around trying to avoid the rain.\nFor this, I just move it left and right and apply an adequate rotation speed.\n\nSince straight-falling rain was too easy, I make sure the rain falls always in the direction where the player is, for added difficulty.\n\nUI\nI came up with a very simple UI, since time was short.\n\nOn the main menu there are two buttons, for two different game modes: either collect the rain drops, or avoid them.\n\nI have a timer to tell how much until the round ends. I also keep track of the player score and show a “damage” indicator when the score is decreased.\n\n\n\nArt / Music\nNone of the art (background, cat, rain-drops) was done by me.\nMy contribution for this game is strictly the entire code on it.\n\nI really wanted to make my own assets, but I wasn’t on a physical or mental state necessary to do it.\n\nThat’s it for May!\n\nMay had its ups and downs, but I finished game number two!\n\nHere is the project page for Spectrum Attack! Give it a look and, preferably, a play!\n\nI’ll see you next month!\n\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "posts",
+      "url": "/blog/2022-05-28-making-my-second-game-sound-part-2-finale/"
+    },{
       "image": {"path":"/assets/img/projects/1gam.png"},
       "title": "#1GAM",
       "date": "2018-12-01 00:00:00 +0000",
@@ -153,12 +164,23 @@
       "title": "Gatekeeper",
       "date": "2022-04-01 00:00:00 +0100",
       
-      "content": "\n  Devlogs\n  Play it here!\n\n\nThis is the first game of my Game Developer adventure. You can read more about its development on the devlogs linked below.\n\nThe game is available to play on itch.io. All the source code and assets can be downloaded from GitHub.\n\nDevlogs\nPart 1 - “Portcullis” and initial concept\n\nPart 2 - First placeholders and game loop\n\nPart 3 - Game Art and Winning/Losing conditions\n\nPart 4 - Tweaks, Sound effects, Menu and Done!\n\nPlay it here!\n\nGatekeeper by dudezord\n\n",
+      "content": "\n  Devlogs\n  Play it here!\n\n\nThis is the first game of my Game Developer adventure. You can read more about its development on the devlogs linked below.\n\nThe game is available to play on itch.io. All the source code and assets can be downloaded from GitHub.\n\nDevlogs\nPart 1 - Theme “Portcullis” and initial concept\n\nPart 2 - First placeholders and game loop\n\nPart 3 - Game Art and Winning/Losing conditions\n\nPart 4 - Tweaks, Sound effects, Menu and Done!\n\nPlay it here!\n\nGatekeeper by dudezord\n\n",
       "categories": [],
       "tags": [],
       
       "collection": "projects",
       "url": "/projects/Gatekeeper"
+    },{
+      "image": {"path":"/assets/img/projects/02-spectrum-attack/thumbnail.png"},
+      "title": "Spectrum Attack!",
+      "date": "2022-05-01 00:00:00 +0100",
+      
+      "content": "\n  Devlogs\n  Play it here!\n\n\nThis is the second game of my Game Developer adventure. You can read more about its development on the devlogs linked below.\n\nThe game is available to play on itch.io. All the source code and assets can be downloaded from GitHub.\n\nDevlogs\nPart 1 - Theme “Sound” and initial concept\n\nPart 2 - Real concept, game loop and features\n\nPlay it here!\n\nSpectrum Attack! by dudezord\n\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "projects",
+      "url": "/projects/Spectrum-Attack"
     }
   ]
 }

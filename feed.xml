@@ -1,5 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-05-01T18:44:33+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
-</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my second game - Sound (Part 1)</title><link href="/blog/2022-05-01-making-my-second-game-sound-part-1/" rel="alternate" type="text/html" title="Making my second game - Sound (Part 1)" /><published>2022-05-01T00:00:00+01:00</published><updated>2022-05-01T18:39:31+01:00</updated><id>/blog/making-my-second-game-sound-part-1</id><content type="html" xml:base="/blog/2022-05-01-making-my-second-game-sound-part-1/"><![CDATA[<ul id="markdown-toc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-05-28T19:23:07+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
+</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my second game - Sound (Part 2 - Finale)</title><link href="/blog/2022-05-28-making-my-second-game-sound-part-2-finale/" rel="alternate" type="text/html" title="Making my second game - Sound (Part 2 - Finale)" /><published>2022-05-28T00:00:00+01:00</published><updated>2022-05-28T19:05:09+01:00</updated><id>/blog/making-my-second-game-sound-part-2-finale</id><content type="html" xml:base="/blog/2022-05-28-making-my-second-game-sound-part-2-finale/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-05-01-making-my-second-game-sound-part-1">Part 1</a>.</p>
+
+<ul id="markdown-toc">
+  <li><a href="#spectrum-attack-is-done" id="markdown-toc-spectrum-attack-is-done">Spectrum Attack is done!</a>    <ul>
+      <li><a href="#the-twist-again" id="markdown-toc-the-twist-again">The Twist (again)</a></li>
+    </ul>
+  </li>
+  <li><a href="#the-game" id="markdown-toc-the-game">The Game</a></li>
+  <li><a href="#tasks" id="markdown-toc-tasks">Tasks</a>    <ul>
+      <li><a href="#spectrum-analyzer" id="markdown-toc-spectrum-analyzer">Spectrum Analyzer</a></li>
+      <li><a href="#falling-rain" id="markdown-toc-falling-rain">Falling Rain</a></li>
+      <li><a href="#rolling-cat" id="markdown-toc-rolling-cat">Rolling Cat</a></li>
+      <li><a href="#ui" id="markdown-toc-ui">UI</a></li>
+      <li><a href="#art--music" id="markdown-toc-art--music">Art / Music</a></li>
+      <li><a href="#thats-it-for-may" id="markdown-toc-thats-it-for-may">That’s it for May!</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="spectrum-attack-is-done">Spectrum Attack is done!</h2>
+
+<p>The second monthly project is now over.</p>
+
+<p>This was a rough month. So this will be the only update of the month for <strong>Spectrum Attack!</strong></p>
+
+<h3 id="the-twist-again">The Twist (again)</h3>
+
+<p>If you read the last devlog of April then you already know that I caught Covid-19. And it sucked… I thought it was going to be a walk in the park, because of vaccines and stuff. Oh boy, how wrong I was…</p>
+
+<p>I ended up having symptoms for a total of four weeks, which didn’t allow me to stay at the computer for more than a couple minutes of a time, since I would get very nauseous.</p>
+
+<p>So basically, everything related to this game was done in the last couple of days.</p>
+
+<p>I thought about postponing this month’s project to June, but that meant to break my initial promise after only one month, so I pushed through it.</p>
+
+<p>Overall, I think it still payed off.</p>
+
+<h2 id="the-game">The Game</h2>
+
+<p>I finished <a href="/blog/2022-05-01-making-my-second-game-sound-part-1">Part 1</a> being somewhat vague on what the game would be about.
+I stated that the game would feature its Music as the main gameplay element and I was able to keep that promise!</p>
+
+<p><strong>Spectrum Attack!</strong> is a game about a cat that either loves or hates rain! Roll your way around while the music plays and either grab or avoid the rain drops.</p>
+
+<p><img src="/assets/img/projects/02-spectrum-attack/itch-thumbnail.png" width="50%" /></p>
+
+<h2 id="tasks">Tasks</h2>
+
+<h3 id="spectrum-analyzer">Spectrum Analyzer</h3>
+<p>I started by implement an analyzer that would give me a histrogram of the different sound frequencies that were being played. Fortunately, this was very easy since Godot provides a very <a href="https://godotengine.org/article/godot-32-will-get-new-audio-features">easy-to-use API</a> exactly for this.</p>
+
+<p>After having it working, I refactored it in order to give me the notes which were being played, no matter what octave it was. Basically, summing every 12nd interval in its own group.</p>
+
+<p>Since notes being played on top of the others create lots of frequency noise, I decided accumulate these samples and only query which notes were being played a handful times per second.</p>
+
+<h3 id="falling-rain">Falling Rain</h3>
+<p>Querying the previous accumulated samples gives me numbers from 0 to 11 (A, A#, B, C, C#, D, D#, E, F, F#, G, G#).</p>
+
+<p>I divide the screen in 12 vertical strips and then spawn rain-drops in the corresponding slot for the notes that are being played at that exact time.</p>
+
+<h3 id="rolling-cat">Rolling Cat</h3>
+<p>Now, it’s just a matter of implementing a player entity for us to control!</p>
+
+<p>I decided on a cute cat that rolls around trying to avoid the rain.
+For this, I just move it left and right and apply an adequate rotation speed.</p>
+
+<p>Since straight-falling rain was too easy, I make sure the rain falls always in the direction where the player is, for added difficulty.</p>
+
+<h3 id="ui">UI</h3>
+<p>I came up with a very simple UI, since time was short.</p>
+
+<p>On the main menu there are two buttons, for two different game modes: either collect the rain drops, or avoid them.</p>
+
+<p>I have a timer to tell how much until the round ends. I also keep track of the player score and show a “damage” indicator when the score is decreased.</p>
+
+<p><img src="/assets/img/blog/posts/02-sound/part-2-ui.png" width="50%" /></p>
+
+<h3 id="art--music">Art / Music</h3>
+<p>None of the art (background, cat, rain-drops) was done by me.
+My contribution for this game is strictly the entire code on it.</p>
+
+<p>I really wanted to make my own assets, but I wasn’t on a physical or mental state necessary to do it.</p>
+
+<h3 id="thats-it-for-may">That’s it for May!</h3>
+
+<p>May had its ups and downs, but I finished game number two!</p>
+
+<p>Here is the project page for <a href="/projects/spectrum-attack">Spectrum Attack!</a> Give it a look and, preferably, a play!</p>
+
+<p>I’ll see you next month!</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><summary type="html"><![CDATA[If you haven’t yet, please read Part 1.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/posts/02-sound/part-2-finale.jpg" /><media:content medium="image" url="/assets/img/blog/posts/02-sound/part-2-finale.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making my second game - Sound (Part 1)</title><link href="/blog/2022-05-01-making-my-second-game-sound-part-1/" rel="alternate" type="text/html" title="Making my second game - Sound (Part 1)" /><published>2022-05-01T00:00:00+01:00</published><updated>2022-05-01T18:39:31+01:00</updated><id>/blog/making-my-second-game-sound-part-1</id><content type="html" xml:base="/blog/2022-05-01-making-my-second-game-sound-part-1/"><![CDATA[<ul id="markdown-toc">
   <li><a href="#second-month-second-challenge" id="markdown-toc-second-month-second-challenge">Second month, second challenge!</a></li>
   <li><a href="#theme---sound" id="markdown-toc-theme---sound">Theme - “Sound”</a>    <ul>
       <li><a href="#definition" id="markdown-toc-definition">Definition</a></li>
@@ -61,7 +150,7 @@ The final result from the previous month is here: <a href="/projects/Gatekeeper"
 <br />
 <br />
 Time to go back to <a href="https://godotengine.org">Godot</a> and start exploring.<br />
-I’ll be back next week, with an update on the development of this project. See you soon!</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/posts/02-sound/part-1.jpg" /><media:content medium="image" url="/assets/img/blog/posts/02-sound/part-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making my first game - Portcullis (Part 4 - Finale)</title><link href="/blog/2022-04-28-making-my-first-game-portcullis-part-4-finale/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 4 - Finale)" /><published>2022-04-28T00:00:00+01:00</published><updated>2022-04-28T23:22:46+01:00</updated><id>/blog/making-my-first-game-portcullis-part-4-finale</id><content type="html" xml:base="/blog/2022-04-28-making-my-first-game-portcullis-part-4-finale/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-04-01-making-my-first-game-portcullis-part-1">Part 1</a>, <a href="/blog/2022-04-09-making-my-first-game-portcullis-part-2">Part 2</a> and <a href="/blog/2022-04-19-making-my-first-game-portcullis-part-3">Part 3</a>.</p>
+I’ll be back next week, with an update on the development of this project. See you soon!</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/posts/02-sound/part-1.jpg" /><media:content medium="image" url="/assets/img/blog/posts/02-sound/part-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making my first game - Portcullis (Part 4 - Finale)</title><link href="/blog/2022-04-28-making-my-first-game-portcullis-part-4-finale/" rel="alternate" type="text/html" title="Making my first game - Portcullis (Part 4 - Finale)" /><published>2022-04-28T00:00:00+01:00</published><updated>2022-05-28T14:10:28+01:00</updated><id>/blog/making-my-first-game-portcullis-part-4-finale</id><content type="html" xml:base="/blog/2022-04-28-making-my-first-game-portcullis-part-4-finale/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-04-01-making-my-first-game-portcullis-part-1">Part 1</a>, <a href="/blog/2022-04-09-making-my-first-game-portcullis-part-2">Part 2</a> and <a href="/blog/2022-04-19-making-my-first-game-portcullis-part-3">Part 3</a>.</p>
 
 <ul id="markdown-toc">
   <li><a href="#we-did-it-we-finished-gatekeeper" id="markdown-toc-we-did-it-we-finished-gatekeeper">We did it, we finished Gatekeeper!</a></li>
