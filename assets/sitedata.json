@@ -149,6 +149,17 @@
       "collection": "posts",
       "url": "/blog/2022-05-28-making-my-second-game-sound-part-2-finale/"
     },{
+      "image": {"path":"/assets/img/blog/posts/03-rogue/part-1.jpg"},
+      "title": "Making my third game - Rogue (Part 1)",
+      "date": "2022-06-01 00:00:00 +0100",
+      
+      "content": "\n  Third time is the charm!\n  Theme - “Rogue”    \n      Definition\n    \n  \n  Game Concept - “Infection”\n\n\nThird time is the charm!\n\nBe very welcome to month #3. The time has arrived for a new challenge.\n\nAs you already know, I’m doing one game a month as a way to learn everything I can about game development.\n\nEvery month I will make a game from start-to-finish based on one of the original themes of #1GAM.\nThe final result from the previous month is here: Spectrum Attack!\n\nAnd without further ado, June brings us… **drum roll**\n\nTheme - “Rogue”\n\nIf you are interested, you can listen to the original keynote by @McFunkypants.\n\n\n  \n    Definition\n    Rogue represents everything that is mischievous or deceitful. It can range from a person, to a plant or even to a computer-virus.\nIn the context of video-games it is used in reference to the term Roguelike, which represents a subgenre of games categorized by dungeon crawling, turn-based gameplay and inventory management.\n  \n\n\n\n\nStarting this month, I will try to conjugate working on the game with exercising. I came up with this idea after watching dev_spajus doing the same on his Twitch stream.\n\nI bought a treadmill and created a stand from some wood planks where I can put my laptop while I walk.\n\nIt is already proving to be succesful because after 45min I was able to figure out what I wanted to do for this month and in another 45min I wrote this entire blog post!\n\nGame Concept - “Infection”\n\nA super computer-virus was created to infect the highly-advanced infrastructures of all enemies of your great Nation. You must ensure its succesfulness and aid it in its mission before being detected and traced back to your country.\n\nThe game will consist of elements of evasion and battle. The player will be responsible with deciding what are the next actions to take. The player will battle some computer-systems of the infrastructure by using deckbuilder mechanics, where winning a battle grants you additional cards with the strenghts of the fallen foe.\n\nAlternatively, the player might choose to evade the battle in order to inspect other parts of the infrastructure which might help them on their mission.\n\nIn order to help being undetected, our virus makes use of a Random Number Generator to define how many action-points the player will have to battle or evade.\n\n\n\n\nI hope that this month I will have a lot more time to work on the game. Scope-wise, this will be a lot more complex than the previous game as I will need to create several cards, their unique art, balance their stats in order to make the game fun, etc.\n\n\nThe plan is now laid down. Time to go to business!\nI’ll be back next week, with an update on the development of this project. See you soon!\n\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "posts",
+      "url": "/blog/2022-06-01-making-my-third-game-rogue-part-1/"
+    },{
       "image": {"path":"/assets/img/projects/1gam.png"},
       "title": "#1GAM",
       "date": "2018-12-01 00:00:00 +0000",

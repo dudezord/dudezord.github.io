@@ -1,5 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-05-28T19:23:07+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
-</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my second game - Sound (Part 2 - Finale)</title><link href="/blog/2022-05-28-making-my-second-game-sound-part-2-finale/" rel="alternate" type="text/html" title="Making my second game - Sound (Part 2 - Finale)" /><published>2022-05-28T00:00:00+01:00</published><updated>2022-05-28T19:05:09+01:00</updated><id>/blog/making-my-second-game-sound-part-2-finale</id><content type="html" xml:base="/blog/2022-05-28-making-my-second-game-sound-part-2-finale/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-05-01-making-my-second-game-sound-part-1">Part 1</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-06-02T18:48:25+01:00</updated><id>/feed.xml</id><title type="html">Adventures in Game Development</title><subtitle>A development blog of an aspiring Game Developer, making one game a month and sharing everything he learns along the way.
+</subtitle><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><entry><title type="html">Making my third game - Rogue (Part 1)</title><link href="/blog/2022-06-01-making-my-third-game-rogue-part-1/" rel="alternate" type="text/html" title="Making my third game - Rogue (Part 1)" /><published>2022-06-01T00:00:00+01:00</published><updated>2022-06-02T18:47:49+01:00</updated><id>/blog/making-my-third-game-rogue-part-1</id><content type="html" xml:base="/blog/2022-06-01-making-my-third-game-rogue-part-1/"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#third-time-is-the-charm" id="markdown-toc-third-time-is-the-charm">Third time is the charm!</a></li>
+  <li><a href="#theme---rogue" id="markdown-toc-theme---rogue">Theme - “Rogue”</a>    <ul>
+      <li><a href="#definition" id="markdown-toc-definition">Definition</a></li>
+    </ul>
+  </li>
+  <li><a href="#game-concept---infection" id="markdown-toc-game-concept---infection">Game Concept - “Infection”</a></li>
+</ul>
+
+<h2 id="third-time-is-the-charm">Third time is the charm!</h2>
+
+<p>Be very welcome to month #3. The time has arrived for a new challenge.</p>
+
+<p>As you <a href="/blog/2022-03-02-the-plan-is-simple/" class="external">already know</a>, I’m doing one game a month as a way to learn everything I can about game development.</p>
+
+<p>Every month I will make a game from start-to-finish based on one of the original themes of <a href="/projects/1GAM">#1GAM</a>.<br />
+The final result from the previous month is here: <a href="/projects/spectrum-attack" class="external">Spectrum Attack!</a></p>
+
+<p>And without further ado, June brings us… <em>**drum roll**</em></p>
+
+<h2 id="theme---rogue">Theme - “Rogue”</h2>
+
+<p>If you are interested, you can listen to the <a href="/projects/1GAM/#3">original keynote</a> by <a href="https://twitter.com/McFunkypants">@McFunkypants</a>.<br /></p>
+
+<ul>
+  <li>
+    <h3 id="definition">Definition</h3>
+    <p><a href="https://en.wiktionary.org/wiki/rogue">Rogue</a> represents everything that is mischievous or deceitful. It can range from a person, to a plant or even to a computer-virus.
+In the context of video-games it is used in reference to the term <a href="https://en.wikipedia.org/wiki/Roguelike">Roguelike</a>, which represents a subgenre of games categorized by dungeon crawling, turn-based gameplay and inventory management.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<p>Starting this month, I will try to conjugate working on the game with exercising. I came up with this idea after watching <a href="https://www.twitch.tv/dev_spajus">dev_spajus</a> doing the same on his Twitch stream.</p>
+
+<p>I bought a treadmill and created a stand from some wood planks where I can put my laptop while I walk.</p>
+
+<p>It is already proving to be succesful because after 45min I was able to figure out what I wanted to do for this month and in another 45min I wrote this entire blog post!</p>
+
+<h2 id="game-concept---infection">Game Concept - “Infection”</h2>
+
+<p>A super computer-virus was created to infect the highly-advanced infrastructures of all enemies of your great Nation. You must ensure its succesfulness and aid it in its mission before being detected and traced back to your country.</p>
+
+<p>The game will consist of elements of evasion and battle. The player will be responsible with deciding what are the next actions to take. The player will battle some computer-systems of the infrastructure by using deckbuilder mechanics, where winning a battle grants you additional cards with the strenghts of the fallen foe.</p>
+
+<p>Alternatively, the player might choose to evade the battle in order to inspect other parts of the infrastructure which might help them on their mission.</p>
+
+<p>In order to help being undetected, our virus makes use of a Random Number Generator to define how many action-points the player will have to battle or evade.</p>
+
+<p><br />
+<br />
+<br />
+I hope that this month I will have a lot more time to work on the game. Scope-wise, this will be a lot more complex than the previous game as I will need to create several cards, their unique art, balance their stats in order to make the game fun, etc.</p>
+
+<p><br />
+The plan is now laid down. Time to go to business!<br />
+I’ll be back next week, with an update on the development of this project. See you soon!</p>]]></content><author><name>dudezord</name><email>dudezord@protonmail.com</email></author><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/posts/03-rogue/part-1.jpg" /><media:content medium="image" url="/assets/img/blog/posts/03-rogue/part-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making my second game - Sound (Part 2 - Finale)</title><link href="/blog/2022-05-28-making-my-second-game-sound-part-2-finale/" rel="alternate" type="text/html" title="Making my second game - Sound (Part 2 - Finale)" /><published>2022-05-28T00:00:00+01:00</published><updated>2022-05-28T19:05:09+01:00</updated><id>/blog/making-my-second-game-sound-part-2-finale</id><content type="html" xml:base="/blog/2022-05-28-making-my-second-game-sound-part-2-finale/"><![CDATA[<p class="note">If you haven’t yet, please read <a href="/blog/2022-05-01-making-my-second-game-sound-part-1">Part 1</a>.</p>
 
 <ul id="markdown-toc">
   <li><a href="#spectrum-attack-is-done" id="markdown-toc-spectrum-attack-is-done">Spectrum Attack is done!</a>    <ul>
